@@ -8,8 +8,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "./styles/sass/img/fire-color-jertfelt.png" } } },
-             
+              "url": "../styles/img/fire-color-jertfelt.png" } } },     
         "description": "Tidningsillustrationer, bokillustrationer, publika verk, animationer, serier och dylikt."
       }
     },
@@ -23,7 +22,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "./styles/sass/img/kollektiv-sorg-dator.png" } } }
+              "url": "../styles/img/kollektiv-sorg-dator.png" } } }
       }
     },
     {
@@ -35,7 +34,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "./styles/sass/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" } } }
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" } } }
       }
     }
   ]
