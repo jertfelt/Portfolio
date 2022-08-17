@@ -12,23 +12,15 @@
       &--container{
         padding-bottom:3rem;
       }
-   
-    &--img{
-      width:100%;
-    }
-    &--img:hover{
-      opacity:90%;
+
       
-    }
     &--txt{
       display:flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: flex-start;
-      h3{
-        
-      }
+     
     }  
   }
-  
+
 }

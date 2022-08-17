@@ -336,14 +336,6 @@ main {
   padding-bottom: 3rem;
 }
 
-.grid__category--img {
-  width: 100%;
-}
-
-.grid__category--img:hover {
-  opacity: 90%;
-}
-
 .grid__category--txt {
   display: -webkit-box;
   display: -ms-flexbox;
