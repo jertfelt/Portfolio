@@ -313,7 +313,6 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  background-color: white;
 }
 
 .nav {
