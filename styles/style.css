@@ -404,7 +404,8 @@ main {
 
 .homepage--section {
   padding: 0;
-  margin-top: 1rem;
+  margin-top: 2em;
+  width: 100%;
 }
 
 .homepage--main {

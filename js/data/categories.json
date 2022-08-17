@@ -1,0 +1,42 @@
+{ 
+  "categories": [ 
+    {
+      "sys": { 
+        "id": "01" },
+      "fields": {
+        "title": "Illustration",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "./styles/sass/img/fire-color-jertfelt.png" } } },
+             
+        "description": "Tidningsillustrationer, bokillustrationer, publika verk, animationer, serier och dylikt."
+      }
+    },
+    {
+      "sys": { 
+        "id": "02" },
+      "fields": {
+        "title": "Formgivning",
+
+        "description": "Grafisk formgivning så som grafiska profiler, logotyper och dylikt.",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "./styles/sass/img/kollektiv-sorg-dator.png" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "03" },
+      "fields": {
+        "title": "Konst",
+        "description": "Egna projekt och utställningar.",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "./styles/sass/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" } } }
+      }
+    }
+  ]
+}
