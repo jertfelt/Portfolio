@@ -297,13 +297,34 @@ main {
   width: 90%;
 }
 
+.button--contact {
+  width: 190px;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 25px;
+  border: none;
+  background-color: #282828;
+}
+
+.button--contact a {
+  color: #bee5f5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button--contact:hover {
+  background-color: #f4f4f4;
+}
+
+.button--contact:hover a {
+  color: #282828;
+}
+
 #site_header {
   left: 0;
   margin-left: 0;
   width: 100%;
   z-index: 50;
-  padding: 0.3rem;
-  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -317,8 +338,10 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  background-color: #d5b3e6;
+  padding: 2rem;
+  top: 0;
 }
 
 .nav {
@@ -379,8 +402,12 @@ main {
   color: #344ce6;
 }
 
+.homepage--section {
+  padding: 0;
+  margin-top: 1rem;
+}
+
 .homepage--main {
-  padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,6 +421,7 @@ main {
 }
 
 .homepage--about {
+  margin-top: 8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,6 +438,16 @@ main {
   background-color: #bee5f5;
   padding: 5rem;
   margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .homepage--aboutTXT h2 {
@@ -420,12 +458,11 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  z-index: 40;
-  padding-bottom: 1em;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 1rem;
 }
 
 .homepage--header {
@@ -438,28 +475,17 @@ main {
   z-index: 40;
 }
 
-.homepage--img {
-  padding: 5rem;
-  width: 100%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  opacity: 90%;
+.homepage--heroheaders {
   position: absolute;
-  top: 300px;
-  left: 10%;
+  top: 190px;
 }
 
 .homepage--img img {
-  z-index: 1;
-  max-height: 600px;
   border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
 }
 
 .arrow {
-  margin-top: 600px;
   z-index: 40;
-  left: 0;
 }
 
 .arrow:hover {
