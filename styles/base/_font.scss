@@ -48,6 +48,10 @@
     text-align: justify;
   }
 
+  &--xxl {
+    @include font-size(90);
+  }
+
   &--xl {
     @include font-size(72);
   }

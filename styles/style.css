@@ -223,6 +223,11 @@ main {
   text-align: justify;
 }
 
+.text--xxl {
+  font-size: 90px;
+  font-size: 5.625rem;
+}
+
 .text--xl {
   font-size: 72px;
   font-size: 4.5rem;
@@ -298,7 +303,7 @@ main {
   width: 100%;
   z-index: 50;
   padding: 0.3rem;
-  margin-top: -1rem;
+  margin-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,7 +317,8 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .nav {
@@ -331,13 +337,6 @@ main {
           justify-content: space-between;
 }
 
-.nav--header {
-  font-size: 48px;
-  text-decoration: none;
-  color: #344ce6;
-  font-weight: bold;
-}
-
 .nav--link {
   color: #000;
   text-decoration: overline;
@@ -346,6 +345,37 @@ main {
 
 .nav--link:hover {
   text-decoration: none;
+  color: #344ce6;
+}
+
+#site_footer {
+  left: 0;
+  margin-left: 0;
+  width: 100%;
+  z-index: 50;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+}
+
+#site_footer i {
+  padding: 0.2rem;
+}
+
+#site_footer a :hover {
   color: #344ce6;
 }
 /*# sourceMappingURL=style.css.map */
