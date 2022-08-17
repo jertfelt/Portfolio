@@ -1,0 +1,26 @@
+        <!-- <div id="imgSlide">
+        
+            <img src="./styles/img/TJ-GIF1-SDochNMR-hatkarlek_mindregif.gif">
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/aferim-riga-international.jpg">
+          
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/berwaldhallen-jertfelt.jpg">
+            
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/vi-kan-battre-tova-jertfelt-kandidatexamen-2016-konstfack--print.jpg">
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg">
+          </div>
+         
+          <div class="slide__content mySlides">
+            <img src="./styles/img/kollektiv-sorg-dator.png">
+          </div>
+        </div> -->
+
+
+         <!-- <script src="./js/visuals/slide.js"></script> -->

@@ -394,30 +394,61 @@ main {
 }
 
 .homepage--about {
-  background-color: aliceblue;
-  padding: 2rem;
+  padding: 2em;
 }
 
-.homepage--header {
-  width: 100%;
+.homepage--herotxt {
   z-index: 40;
 }
 
-#imgSlide {
-  z-index: 0;
+.homepage--header {
+  position: relative;
+  width: 100%;
+}
+
+.homepage--img {
+  padding: 1rem;
   width: 80%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-bottom: 2rem;
+  opacity: 90%;
+  z-index: 0;
+  position: absolute;
+  top: 240px;
+  left: 30%;
 }
 
-.slide__content {
-  padding: 1rem;
-}
-
-.slide__content img {
-  min-height: 500px;
+.homepage--img img {
   max-height: 500px;
+  border-radius: 96% 14% 52% 48% / 50% 52% 48% 50%;
+}
+
+.homepage--headertxt {
+  padding-left: 1rem;
+  color: #483d8b;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.arrow {
+  margin-top: 380px;
+}
+
+.arrow:hover {
+  opacity: 20%;
 }
 /*# sourceMappingURL=style.css.map */
