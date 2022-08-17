@@ -378,4 +378,46 @@ main {
 #site_footer a :hover {
   color: #344ce6;
 }
+
+.homepage--main {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homepage--about {
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+.homepage--header {
+  width: 100%;
+  z-index: 40;
+}
+
+#imgSlide {
+  z-index: 0;
+  width: 80%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 2rem;
+}
+
+.slide__content {
+  padding: 1rem;
+}
+
+.slide__content img {
+  min-height: 500px;
+  max-height: 500px;
+}
 /*# sourceMappingURL=style.css.map */

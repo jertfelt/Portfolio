@@ -48,16 +48,33 @@
   </header>
   <main class="homepage--main">
     <section class="homepage--about">
-      <div class="centered">
+      <div>
         <span class="homepage--header">
           <h1 class="text--xxl text--bold headerfont text--blue ">
             Tova Jertfelt
           </h1>
         </span>
-       
-        <!--Javascript slide-->
-
-      <div class=""><svg preserveAspectRatio="xMidYMid meet" 
+        <div id="imgSlide">
+          <div class="slide__content mySlides">
+            <img src="./styles/img/berwaldhallen-jertfelt.jpg">
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/kollektiv-sorg-pitch.jpg">
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/vi-kan-battre-tova-jertfelt-kandidatexamen-2016-konstfack--print.jpg">
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg">
+          </div>
+          <div class="slide__content mySlides">
+            <img src="./styles/img/aferim-riga-international.jpg">
+          </div>
+        </div>
+     
+      </div>
+      <div class="arrow centered">
+        <svg preserveAspectRatio="xMidYMid meet" 
         data-bbox="19.917 17 162 162" viewBox="19.917 17 162 162" height="100" 
         width="100" 
         xmlns="http://www.w3.org/2000/svg" 
@@ -68,7 +85,7 @@
               <path fill="#000002" d="M100.44 150.569L49.286 99.414l2.828-2.828 48.326 48.327 49.79-49.79 2.829 2.828-52.619 52.618z" data-color="1"></path>
           </g>
       </svg>
-    </div>
+    
   </div>
       
     </section>
@@ -92,7 +109,7 @@
     <a class="text--black" 
     href="https://www.instagram.com/jertfelt/"><i style="font-size:24px" 
       class="fa fa-instagram" aria-hidden="true"></i></a>
-
   </footer>
+  <script src="./js/visuals/slide.js"></script>
 </body>
 </html>
