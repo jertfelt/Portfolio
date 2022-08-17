@@ -1,0 +1,101 @@
+//paragraph texts
+
+.text {
+  font-family: $font--primary;
+  
+  &--light {
+    color: $color--lightblue;
+  }
+
+  &--white{
+    color: $color--white;
+  }
+
+  &--font-black {
+    color: $color--fontblack;
+  }
+
+  &--black {
+    color: $color--black;
+  }
+  &--blue {
+    color: $color--blue;
+  }
+
+  &--purple {
+    color: $color--purple;
+  }
+
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--cursive {
+    font-style: italic;
+  }
+
+  &--center {
+    text-align: center;
+  }
+  
+  &--left {
+    text-align: left;
+  }
+
+  &--justified{
+    text-align: justify;
+  }
+
+  &--xl {
+    @include font-size(72);
+  }
+
+  &--l {
+    @include font-size(34);
+    @include breakpoint(small-max) {
+      @include font-size(54);
+      line-height: 60px;
+    }
+  }
+  &--m {
+    @include font-size(48);
+  }
+  &--s {
+    @include font-size(36);
+    line-height: 42px;
+    @include breakpoint(small-max) {
+      @include font-size(22);
+      line-height: 28px;
+    }
+  }
+
+  &--xs {
+    @include font-size(20);
+    line-height: 28px;
+    @include breakpoint(small-max) {
+      font-size:1.3em;
+      word-spacing: 10%;
+      line-height:2rem;
+    }
+  }
+  &--xxs {
+    @include font-size(18);
+    line-height: 25px;
+    @include breakpoint(small-max) {
+      font-size:1.3em;
+      word-spacing: 10%;
+      line-height:2rem;
+    }
+  }
+  &--width70{
+    width:90%;
+    @include breakpoint(medium-min){
+      width:70%;
+    }
+  }
+}
+.text-align-right{
+  text-align:right;
+}
+

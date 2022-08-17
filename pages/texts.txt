@@ -1,0 +1,29 @@
+HOMEPAGE: 
+Jag är Tova Jertfelt – multidisciplinär konstnär och illustratör baserad i Sverige. Jag jobbar med illustration och visuell kommunikation, främst digital. 2021 har jag börjat studera till att bli frontend-utvecklare.  
+
+
+CONTACT : 
+Replace 
+https://lo-victoria.com/how-to-build-a-contact-form-with-javascript-and-nodemailer
+
+
+ABOUT PAGE:
+Tova Jertfelt is an artist, illustrator and programmer based in Uppsala, Sweden.
+
+Currently studying frontend programming at Nackademin, and has a bachelor degree from Konstfack (bachelor in Visual Communication).
+As of 2021 she founded Liten Eld society,  a (mostly) artist-run gallery and studio in Eriksberg neigbourhood, Uppsala.
+
+See the FRONTEND PROGRAMMER portfolio here.﻿
+CLIENTS:
+
+Natur & Kultur, RFSU, LSU, RE:Public, Frihet.se, Plan Sverige, Amnesty Sverige, WESCF, Teskedsorden, Södertälje Konsthall, Berwaldhallen, Brand, etc.
+RECENT EXHIBITIONS:
+
+Grupputställning TEMPORARY SPACES, Uppsala Konstnärsklubb 2022
+Skogen & jag, Eriksberg bibliotek 2022
+Jag är ett träd, Liten Eld 2021
+Modersmål, Hässelby kulturhus 2019
+Family First Exhibition, Södertälje Konsthall 2017
+Artmadethis, Sundbyberg 2017
+Amidst everything and nothing, Hötorgsskraporna 2017
+

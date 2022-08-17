@@ -1,0 +1,33 @@
+// Variables
+// --------------------
+@import 'variables/colors';
+@import 'variables/typography';
+
+// Utilities
+// --------------------
+@import "sass-utils/mixins";
+@import "sass-utils/helpers";
+@import "sass-utils/variables";
+
+// Reset and base files
+// --------------------
+@import 'base/reset';
+@import 'base/base';
+@import 'base/font';
+
+// Objects
+// --------------------
+@import "components/buttons";
+@import "components/grid";
+@import "components/inputs";
+@import "components/animation";
+@import "components/dropdown";
+
+// Layouts
+// --------------------
+
+@import "layout/header";
+@import "layout/pages";
+@import "layout/footer";
+@import "layout/homepage";
+@import "layout/gallery";

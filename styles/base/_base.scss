@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: $color--background;
+  color:$color--fontblack;
+  font-family: $font--primary;
+}
+
+main{
+  margin-top:3rem;
+  padding-bottom:2rem;
+}
