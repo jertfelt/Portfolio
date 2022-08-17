@@ -394,7 +394,22 @@ main {
 }
 
 .homepage--about {
-  padding: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homepage--aboutTXT {
+  background-color: #bee5f5;
+  padding: 5rem;
+  margin-top: 2rem;
+}
+
+.homepage--aboutTXT h2 {
+  padding: 4rem;
 }
 
 .homepage--herotxt {
@@ -404,48 +419,29 @@ main {
 .homepage--header {
   position: relative;
   width: 100%;
+  z-index: 40;
 }
 
 .homepage--img {
-  padding: 1rem;
+  padding: 5rem;
   width: 80%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   opacity: 90%;
-  z-index: 0;
   position: absolute;
-  top: 240px;
-  left: 30%;
+  top: 190px;
 }
 
 .homepage--img img {
+  z-index: 1;
   max-height: 500px;
-  border-radius: 96% 14% 52% 48% / 50% 52% 48% 50%;
-}
-
-.homepage--headertxt {
-  padding-left: 1rem;
-  color: #483d8b;
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
 }
 
 .arrow {
-  margin-top: 380px;
+  margin-top: 400px;
+  z-index: 40;
 }
 
 .arrow:hover {
