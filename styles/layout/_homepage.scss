@@ -5,16 +5,17 @@
     width:100%;
   }
   &--main{
-    
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   &--about{
     margin-top:8em;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:3em;
   }
   &--aboutTXT{
     background-color: $color--lightblue;
@@ -26,6 +27,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+
+    //mobilversion
   }
   &--herotxt{
     display:flex;
@@ -46,14 +49,14 @@
   &--heroheaders{
     position: absolute;
     top:190px;
-    
+    left:20%;
   }
   &--img{
-    
-      img{  border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
+    margin:3rem;
+      img{  
+        max-width:100%;
+        border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
       }
-    
-    
     //*lägg in mobilversion här!
   }
 }

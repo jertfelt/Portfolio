@@ -15,19 +15,24 @@ const drawHomePage = (data) => {
 
     article.innerHTML=`
     <article id="${item.fields.title}"
-    class="grid__category>
+    class="grid__category">
 
-    <div class="pointer category__container">
-    
-    <img src="${item.fields.image.fields.file.url}"
-    class="category__img"
-    alt="${item.fields.title}
-    </img>
-    <span class="category__text">
-    <h3 class="">${item.fields.title}</h3>
+    <div class="pointer grid__category--container">
+    <span class="grid__category--txt">
+    <h3 class="text--m headerfont text--blue">${item.fields.title}</h3>
     <h4>${item.fields.description}</h4>
     </span>
+
+    <img src="${item.fields.image.fields.file.url}"
+    class="grid__category--img"
+    alt="${item.fields.title}
+    </img>
+    
     </div>
+    <img src="${item.fields.image.fields.file.url}"
+    class="grid__category--img"
+    alt="${item.fields.title}
+    </img>
     </article>`
 
     categoriesHomePage.appendChild(article);

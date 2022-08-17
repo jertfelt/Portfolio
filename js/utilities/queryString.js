@@ -24,13 +24,22 @@ return url.toString();
 
 }
 
+const sections = document.querySelectorAll(".section");
+
 const setActivePage = () => {
   let url = new URL(window.location.href);
   let searchParam = url.searchParams;
-  const currentPage = search_params.get("section");
+  const currentPage = searchParam.get("section");
   
-  if (currentSection) {
-   
+  if (currentPage) {
+    sections.forEach(section => {
+    if (sections.id === currentPage){
+      if (section.id !== "homepageSection"){
+        homepageSection.classList.add("hidden");
   }
+  section.classList.remove("hidden");
   
   }
+})}}
+setActivePage();
+
