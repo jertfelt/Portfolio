@@ -397,6 +397,10 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -413,35 +417,49 @@ main {
 }
 
 .homepage--herotxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   z-index: 40;
+  padding-bottom: 1em;
 }
 
 .homepage--header {
-  position: relative;
+  width: 100%;
+  z-index: 40;
+}
+
+.homepage--header2 {
   width: 100%;
   z-index: 40;
 }
 
 .homepage--img {
   padding: 5rem;
-  width: 80%;
+  width: 100%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   opacity: 90%;
   position: absolute;
-  top: 190px;
+  top: 300px;
+  left: 10%;
 }
 
 .homepage--img img {
   z-index: 1;
-  max-height: 500px;
+  max-height: 600px;
   border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
 }
 
 .arrow {
-  margin-top: 400px;
+  margin-top: 600px;
   z-index: 40;
+  left: 0;
 }
 
 .arrow:hover {
