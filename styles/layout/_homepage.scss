@@ -1,0 +1,86 @@
+.homepage{
+  &--section{
+    padding: 0;
+    margin-top:2em;
+    width:100%;
+  }
+  &--main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &--about{
+    margin-top:8em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:3em;
+  }
+  &--aboutTXT{
+    background-color: $color--lightblue;
+    padding:5rem;
+    margin-top:2rem;
+    h2{
+      padding:4rem;
+    }
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    //mobilversion
+  }
+  &--herotxt{
+    display:flex;
+    flex-direction: column;
+    padding-bottom:1rem;
+    //mobil
+  }
+
+  &--header{
+    width: 100%;
+    z-index:40;
+  }
+  &--header2{
+    width: 100%;
+    z-index:40;
+ 
+  }
+  &--heroheaders{
+    position: absolute;
+    top:190px;
+    left:20%;
+  }
+  &--img{
+    margin:3rem;
+      img{  
+        max-width:100%;
+        border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
+      }
+    //*lägg in mobilversion här!
+  }
+}
+
+.arrow{
+ 
+  z-index:40;
+ 
+}
+.arrow:hover{
+  opacity:20%;
+}
+
+// #imgSlide{
+//   z-index: 0;
+//   width:80%;
+//   align-self: center;
+//   margin-bottom:2rem;
+// }
+// .slide__content{
+//   padding:1rem;
+//   img{
+//     min-height:500px;
+//     max-height:500px;
+    
+//   }
+// }

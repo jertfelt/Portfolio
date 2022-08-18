@@ -1,0 +1,26 @@
+.grid{
+  &__category{
+  
+      width: 90vw;
+      margin: 0 auto;
+      max-width: 1170px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-column-gap: 3rem;
+      grid-row-gap: 2rem;
+
+      &--container{
+        padding-bottom:3rem;
+      }
+
+      
+    &--txt{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+     
+    }  
+  }
+
+}

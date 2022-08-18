@@ -8,9 +8,14 @@ body {
   background: $color--background;
   color:$color--fontblack;
   font-family: $font--primary;
+  overflow-x: auto;
+  overflow-y: scroll;
+  height: 100%;
+  
 }
 
 main{
+  
   margin-top:3rem;
   padding-bottom:2rem;
 }

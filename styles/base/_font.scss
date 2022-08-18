@@ -1,5 +1,6 @@
-//paragraph texts
-
+.headerfont{
+  font-family: $font--heading;
+}
 .text {
   font-family: $font--primary;
   
@@ -45,6 +46,10 @@
 
   &--justified{
     text-align: justify;
+  }
+
+  &--xxl {
+    @include font-size(90);
   }
 
   &--xl {
@@ -95,7 +100,5 @@
     }
   }
 }
-.text-align-right{
-  text-align:right;
-}
+
 
