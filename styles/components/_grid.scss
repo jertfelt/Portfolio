@@ -26,13 +26,27 @@
       max-width:900px;
     }  
     &--txtabove{
-      background-color: $color--fontblack;
       position: relative;
       top:-7em;
-      left:5em;
+      left:20%;
       padding:1rem;
+      
     }
   }
  
 
+}
+
+.skewedbg{
+  &--black{
+    background-color: $color--fontblack;
+    transform: skew(-0deg);
+    -moz-transform: skew(10deg);
+    -o-transform: skew(10deg);
+  }
+  &--reverse{
+    transform: skew(-0deg);
+    -moz-transform: skew(-10deg);
+    -o-transform: skew(-10deg);
+  }
 }

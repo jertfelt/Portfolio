@@ -15,7 +15,7 @@ const drawHomePage = (data) => {
 
     article.innerHTML=`
     <article id="${item.fields.title}"
-    class="grid__category margintop--l">
+    class="grid__category ">
 
     <div class="pointer">
     <img
@@ -23,15 +23,13 @@ const drawHomePage = (data) => {
     src="${item.fields.image.fields.file.url}"
     alt="${item.fields.title}"
     >
-    <span class="grid__category--txt above grid__category--txtabove">
+    <span class="grid__category--txt above grid__category--txtabove skewedbg--black">
     <h3 
-    class="text--m headerfont text--blue">
+    class="text--m headerfont text--lightblue skewedbg--reverse">
     ${item.fields.title}</h3>
-    <h4 class=" text--bold text--white ">${item.fields.description}</h4>
+    <h4 class=" text--bold text--white skewedbg--reverse">${item.fields.description}</h4>
     </span>
-    
- 
-    
+
     </div>
     <img src="${item.fields.image.fields.file.url}"
     class="grid__category--img"

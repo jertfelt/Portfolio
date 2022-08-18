@@ -191,7 +191,7 @@ main {
   font-family: "Roboto", sans-serif;
 }
 
-.text--light {
+.text--lightblue {
   color: #bee5f5;
 }
 
@@ -367,11 +367,25 @@ main {
 }
 
 .grid__category--txtabove {
-  background-color: #000;
   position: relative;
   top: -7em;
-  left: 5em;
+  left: 20%;
   padding: 1rem;
+}
+
+.skewedbg--black {
+  background-color: #000;
+  -webkit-transform: skew(0deg);
+          transform: skew(0deg);
+  -moz-transform: skew(10deg);
+  -o-transform: skew(10deg);
+}
+
+.skewedbg--reverse {
+  -webkit-transform: skew(0deg);
+          transform: skew(0deg);
+  -moz-transform: skew(-10deg);
+  -o-transform: skew(-10deg);
 }
 
 #site_header {
