@@ -459,7 +459,6 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: fixed;
 }
 
 #site_footer i {
@@ -572,5 +571,51 @@ main {
 
 .arrow:hover {
   opacity: 20%;
+}
+
+.disclaimer__container {
+  position: fixed;
+  top: 330px;
+  right: 0;
+  width: 20%;
+  height: 15%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  background-color: #344ce6;
+  color: #f4f4f4;
+  opacity: 90%;
+}
+
+.disclaimer__transparentBack {
+  visibility: visible;
+}
+
+.disclaimer__content {
+  width: 20%;
+  position: fixed;
+  top: 350px;
+  right: 0;
+  height: 15%;
+  background: #f4f4f4;
+  color: #483d8b;
+  padding: 1.5rem;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.disclaimer__content a {
+  font-weight: bold;
+  color: #344ce6;
+  text-decoration: none;
+}
+
+.disclaimer__show {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.disclaimer--close {
+  cursor: pointer;
+  height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
