@@ -53,6 +53,10 @@ const drawHomePage = (data) => {
   document.getElementById("Formgivning").onclick=()=>{
     changeActivePage("categorySection", "Formgivning")
   }
+
+  document.getElementById("Frontend").onclick=()=>{
+    window.location.href = "http://www.tovajertfelt.com";
+  }
   
 }
 
