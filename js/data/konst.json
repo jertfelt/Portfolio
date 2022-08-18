@@ -1,0 +1,46 @@
+{ 
+  "categories": [ 
+    {
+      "sys": { 
+        "id": "k01" },
+      "fields": {
+        "title": "Ursäkta skogen vi bygger om",
+        "description": "Uppsala konstnärsklubb 14/5 - 20/6 2022.",
+        "image": { 
+          "fields": { 
+            "file01": { 
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022.jpg" },
+              "file02": { 
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" },
+              "file03": { 
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-skylt3.jpg" } } }   
+       
+      }
+    },
+    {
+      "sys": { 
+        "id": "k02" },
+      "fields": {
+        "title": "Formgivning",
+
+        "description": "Grafisk formgivning så som grafiska profiler, logotyper och dylikt.",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/kollektiv-sorg-dator.png" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "k03" },
+      "fields": {
+        "title": "Konst",
+        "description": "Egna projekt och utställningar.",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" } } }
+      }
+    }
+  ]
+}

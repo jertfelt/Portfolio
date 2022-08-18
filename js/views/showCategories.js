@@ -27,7 +27,7 @@ const drawHomePage = (data) => {
     <h3 
     class="text--m headerfont text--lightblue skewedbg--reverse">
     ${item.fields.title}</h3>
-    <h4 class=" text--bold text--white skewedbg--reverse">${item.fields.description}</h4>
+    <h4 class=" text--bold text--white  skewedbg--reverse">${item.fields.description}</h4>
     </span>
 
     </div>

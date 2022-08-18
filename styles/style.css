@@ -368,9 +368,9 @@ main {
 
 .grid__category--txtabove {
   position: relative;
-  top: -7em;
+  top: -8em;
   left: 20%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .skewedbg--black {
@@ -508,6 +508,7 @@ main {
 }
 
 .homepage--aboutTXT {
+  height: 100vh;
   background-color: #bee5f5;
   padding: 6em;
   margin-top: 2rem;
@@ -525,6 +526,7 @@ main {
 }
 
 .homepage--aboutTXT h2 {
+  margin-top: 2em;
   padding: 4rem;
 }
 
