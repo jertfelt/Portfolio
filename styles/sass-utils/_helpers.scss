@@ -6,6 +6,19 @@
   display: block;
 }
 
+.under{
+  z-index:0;
+}
+.above{
+  z-index:30;
+}
+
 .pointer{
   cursor: pointer;
+}
+
+.margintop{
+  &--l{
+    margin-top:5em;
+  }
 }

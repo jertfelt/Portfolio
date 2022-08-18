@@ -1,4 +1,11 @@
 .grid{
+
+  &__img{
+    max-width: 1170px;
+    min-width: 1170px;
+    //kom ihåg mobil här
+  }
+
   &__category{
   
       width: 90vw;
@@ -6,21 +13,26 @@
       max-width: 1170px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      grid-column-gap: 3rem;
-      grid-row-gap: 2rem;
+      grid-column-gap: 9rem;
+      grid-row-gap: 9em;
 
-      &--container{
-        padding-bottom:3rem;
-      }
 
       
     &--txt{
       display:flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: flex-start;
-     
+      align-items: center;
+      max-width:900px;
     }  
+    &--txtabove{
+      background-color: $color--fontblack;
+      position: relative;
+      top:-7em;
+      left:5em;
+      padding:1rem;
+    }
   }
+ 
 
 }

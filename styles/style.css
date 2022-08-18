@@ -6,8 +6,20 @@
   display: block;
 }
 
+.under {
+  z-index: 0;
+}
+
+.above {
+  z-index: 30;
+}
+
 .pointer {
   cursor: pointer;
+}
+
+.margintop--l {
+  margin-top: 5em;
 }
 
 html,
@@ -320,6 +332,11 @@ main {
   color: #282828;
 }
 
+.grid__img {
+  max-width: 1170px;
+  min-width: 1170px;
+}
+
 .grid__category {
   width: 90vw;
   margin: 0 auto;
@@ -328,12 +345,8 @@ main {
   display: grid;
   -ms-grid-columns: (minmax(280px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-column-gap: 3rem;
-  grid-row-gap: 2rem;
-}
-
-.grid__category--container {
-  padding-bottom: 3rem;
+  grid-column-gap: 9rem;
+  grid-row-gap: 9em;
 }
 
 .grid__category--txt {
@@ -347,9 +360,18 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 900px;
+}
+
+.grid__category--txtabove {
+  background-color: #000;
+  position: relative;
+  top: -7em;
+  left: 5em;
+  padding: 1rem;
 }
 
 #site_header {
@@ -473,8 +495,9 @@ main {
 
 .homepage--aboutTXT {
   background-color: #bee5f5;
-  padding: 5rem;
+  padding: 6em;
   margin-top: 2rem;
+  margin-bottom: 3em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

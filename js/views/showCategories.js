@@ -15,19 +15,19 @@ const drawHomePage = (data) => {
 
     article.innerHTML=`
     <article id="${item.fields.title}"
-    class="grid__category">
+    class="grid__category margintop--l">
 
-    <div class="pointer grid__category--container">
+    <div class="pointer">
     <img
-    class="grid__img"
+    class="grid__img under"
     src="${item.fields.image.fields.file.url}"
-    alt="${item.fields.title}
-    </img>
-    <span class="grid__category--txt">
+    alt="${item.fields.title}"
+    >
+    <span class="grid__category--txt above grid__category--txtabove">
     <h3 
     class="text--m headerfont text--blue">
     ${item.fields.title}</h3>
-    <h4>${item.fields.description}</h4>
+    <h4 class=" text--bold text--white ">${item.fields.description}</h4>
     </span>
     
  
