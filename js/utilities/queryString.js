@@ -30,10 +30,7 @@ const setActivePage = () => {
   let searchParam = url.searchParams;
   const currentPage = searchParam.get("section");
 
- 
-
-  if (currentPage) {
-   
+  if (currentPage) {   
     if (currentPage !== "homepageSection"){
       document.getElementById("homepageSection").classList.add("hidden");
     }

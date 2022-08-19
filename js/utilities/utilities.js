@@ -14,6 +14,16 @@ document.getElementById("aboutMe").onclick=()=>{
   document.getElementById("homepageSection").classList.add("hidden");
 }
 
+document.getElementById("illustrationJob").onclick=()=>{
+  changeActivePage("uppdragillustrationerSection", "Illustrationsuppdrag")
+  document.getElementById("illustrationSection").classList.add("hidden");
+}
+
+document.getElementById("illustrationOwnWork").onclick=()=>{
+  changeActivePage("egnaillustrationerSection", "Fristående illustrationer")
+  document.getElementById("illustrationSection").classList.add("hidden");
+}
+
 const contactButtons = document.querySelectorAll(".button--contact");
 
 contactButtons.forEach(button => {

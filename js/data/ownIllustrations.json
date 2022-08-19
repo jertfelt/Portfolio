@@ -1,0 +1,153 @@
+{ 
+  "ownIllustrations": [ 
+    
+    {
+      "sys": { 
+        "id": "01" },
+      "fields": {
+        "title": "Utbränd",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/fire-color-jertfelt.png" } } },     
+        "description": "En illustration om utbrändhet, 'eldsjäl' och den ångesten man får av att vara överväldigad."
+      }
+    },
+   
+    {
+      "sys": { 
+        "id": "02" },
+      "fields": {
+        "title": "Berg",
+        "description": "Illustration",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/berg copy.jpg" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "03" },
+      "fields": {
+        "title": "Drömmar om nyår",
+        "description": "Collage på papper, 70x100 cm.",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/dreams-tova-jertfelt.jpg" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "04" },
+      "fields": {
+        "title": "White Blindness",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/web-white-blindness-png-tova-jertfelt-anti-racism-antirasist-poster-print.jpg" } } },     
+        "description": "En illustraton som handlar om hur vita måste sluta vara blinda inför sina priviligier och sin maktposition."
+      }
+    },
+    {
+      "sys": { 
+        "id": "05" },
+      "fields": {
+        "title": "Leoparden",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/Leopard--print.jpg" } } },     
+        "description": "En nattvandrade leopard. Till salu!"
+      }
+    },
+    {
+      "sys": { 
+        "id": "06" },
+      "fields": {
+        "title": "Shell is hell",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/shell-is-hell.jpg" } } },     
+        "description": "Collage som handlar om Shell"
+      }
+    },
+    {
+      "sys": { 
+        "id": "07" },
+      "fields": {
+        "title": "Vila i frid biologisk mångfald",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/rest-in-peace-biodiversity-tova-jertfelt.jpg" } } },     
+        "description": "En illustration som handlar om att vi håller på att utplåna oss själva."
+      }
+    },
+    {
+      "sys": { 
+        "id": "08" },
+      "fields": {
+        "title": "Skit i allt, dansa!",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/inferno-dance-tova-jertfelt-poster-for-sale-print-illustration-tova-jertfelt.jpg" } } },     
+        "description": "Print till salu"
+      }
+    },
+    {
+      "sys": { 
+        "id": "09" },
+      "fields": {
+        "title": "Isatou",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/isatou-portratt-insta.jpg" } } },     
+        "description": "Ett porträtt av Isatou"
+      }
+    },
+    {
+      "sys": { 
+        "id": "11" },
+      "fields": {
+        "title": "Apati",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/apathy.jpg" } } },     
+        "description": "En illustration som visar på apati. collage på papper"
+      }
+    },
+    {
+      "sys": { 
+        "id": "12" },
+      "fields": {
+        "title": "Ariel",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/ariel-tova-jertfelt.jpg" } } },     
+        "description": "Porträtt"
+      }
+    },
+    {
+      "sys": { 
+        "id": "13" },
+      "fields": {
+        "title": "Pojken vid poolkanten",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/boy-pool-view.jpg" } } },     
+        "description": "Digital målning"
+      }
+    }
+
+
+
+  ]
+}
