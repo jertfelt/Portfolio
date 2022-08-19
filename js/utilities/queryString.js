@@ -1,10 +1,10 @@
-const changeActivePage = (sectionName, categoryName, projectID) => {
+const changeActivePage = (sectionName, categoryName, ) => {
 
-  const newUrl = createURL(sectionName, categoryName, projectID)
+  const newUrl = createURL(sectionName, categoryName, )
   location.href = newUrl;
 }
 
-const createURL = (sectionName, categoryName, projectID) => {
+const createURL = ( sectionName,categoryName, ) => {
   const url = new URL(window.location.href);
   const searchParam = url.searchParams;
 
@@ -16,9 +16,7 @@ const createURL = (sectionName, categoryName, projectID) => {
 if (categoryName) {  
   searchParam.set("category", categoryName)}
 
-if(projectID){
-  search_params.set("id", projectID)
-}
+
 
 return url.toString();
 
@@ -28,18 +26,27 @@ const sections = document.querySelectorAll(".section");
 
 const setActivePage = () => {
   let url = new URL(window.location.href);
+
   let searchParam = url.searchParams;
   const currentPage = searchParam.get("section");
-  
+
+  const homepageSect = document.getElementById("homepageSection")
+
   if (currentPage) {
-    sections.forEach(section => {
-    if (sections.id === currentPage){
-      if (section.id !== "homepageSection"){
-        homepageSection.classList.add("hidden");
-  }
-  section.classList.remove("hidden");
+   console.log(currentPage)
+    sections.forEach(section => { 
+      console.log(section.id)
+      
+      if (section.id === currentPage){
+        if (section.id !== "homepageSection"){
+       
+        }
+        section.classList.remove("hidden");
+      }
   
-  }
-})}}
+    })}
+  
+}
+
 setActivePage();
 

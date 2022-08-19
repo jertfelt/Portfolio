@@ -36,20 +36,27 @@
   class="">
     <nav>
       <img src="./styles/logotype/tova-jertfelt-logo-purple.png"
+      class="homebutt"
+      alt="jertfelt.com"
       style="height: 90px;
       border-radius: 50%;">
       <a href="/"
-      class="nav--link text--s">Start</a>
-       <a href="https://www.tovajertfelt.se"
-       class="nav--link text--s">Frontend portfolio</a>
-      <a href="/om-mig"
-      class="nav--link text--s">Om mig</a>
+      class="homebutt nav--link text--s">Hem</a>
+      <a href="https://www.tovajertfelt.se"
+      class="nav--link text--s">Frontend portfolio</a>
+      <p 
+      id="aboutMe"
+      class="nav--link text--s"
+      >Om mig
+    </p>
      
     </nav>
   </header>
 
   <main class="homepage--main">
-    <section class="homepage--about">
+    <section id="homepageSection"
+    class="section">
+    <section  class="homepage--about">
       <div class="homepage--herotxt">
         <span class="homepage--img">
           <img 
@@ -104,17 +111,24 @@
     </section>
 
   <section id="allContentHomepage"
-  class="categories--homepage section homepageSection">
+  class="categories--homepage ">
   
   </section> 
-  <section class="section illustrationSection hidden">
+  </section>
+  <section   
+  id="illustrationSection"
+  class="section  hidden">
 
   </section>
-  <section class="section konstSection hidden">
+  <section 
+  id="konstSection"
+  class="section konstSection hidden">
 
   </section>
 
-  <section class="section formgivningSection hidden">
+  <section 
+  id="formgivningSection"
+  class="section  hidden">
 
   </section>
   </main> 
@@ -144,7 +158,9 @@
   </footer>
   
 <script src="../js/views/showCategories.js"></script>
+<script src="../js/utilities/utilities.js"></script>
 <script src="../js/utilities/queryString.js"></script>
+
 
 </body>
 </html>
