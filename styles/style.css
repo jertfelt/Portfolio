@@ -457,26 +457,60 @@ main {
   top: 0;
 }
 
-.nav {
+nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+nav img {
+  position: fixed;
+  left: 10%;
+  top: 0.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  nav img {
+    visibility: hidden;
+  }
+}
+
+nav span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: fixed;
+  top: 2rem;
+  right: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  nav span {
+    right: 3rem;
+  }
 }
 
 .nav--link {
   color: #000;
   text-decoration: overline;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .nav--link:hover {

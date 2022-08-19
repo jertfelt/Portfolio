@@ -11,3 +11,4 @@ navHomeButtons.forEach(button => {
 
 document.getElementById("aboutMe").onclick=()=>{
   changeActivePage("aboutmeSection", "Om mig")}
+

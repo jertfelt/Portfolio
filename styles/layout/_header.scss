@@ -12,18 +12,39 @@
   padding:2rem;
   top:0;
 }
-.nav{
+nav{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-bottom:3rem;
+  img{
+    position: fixed;
+    left:10%;
+    top:0.7rem;
+    @include breakpoint(small-max-m){
+      visibility: hidden;
+    }
+  }
+  span{
+    display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+    position: fixed;
+    top:2rem;
+    right:1rem;
+    @include breakpoint(small-max-m){
+      right:3rem;
+    }
+  }
 }
 //MOBILVERSION!
 .nav--link{
   color:$color--fontblack;
   text-decoration:overline;
-  padding:5rem;
+  padding:1rem;
 }
+
 .nav--link:hover{
   text-decoration: none;
   color:$color--blue;
