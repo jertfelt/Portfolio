@@ -10,5 +10,16 @@ navHomeButtons.forEach(button => {
 })
 
 document.getElementById("aboutMe").onclick=()=>{
-  changeActivePage("aboutmeSection", "Om mig")}
+  changeActivePage("aboutmeSection", "Om mig")
+  document.getElementById("homepageSection").classList.add("hidden");
+}
 
+const contactButtons = document.querySelectorAll(".button--contact");
+
+contactButtons.forEach(button => {
+button.addEventListener("click", () => {
+  document.getElementById("homepageSection").classList.add("hidden");
+  changeActivePage("contactSection", "Kontakta mig")
+  
+})
+})

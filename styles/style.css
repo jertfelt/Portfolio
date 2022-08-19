@@ -316,9 +316,6 @@ main {
   border-radius: 25px;
   border: none;
   background-color: #282828;
-}
-
-.button--contact a {
   color: #bee5f5;
   text-decoration: none;
   font-weight: bold;
@@ -326,9 +323,6 @@ main {
 
 .button--contact:hover {
   background-color: #f4f4f4;
-}
-
-.button--contact:hover a {
   color: #282828;
 }
 

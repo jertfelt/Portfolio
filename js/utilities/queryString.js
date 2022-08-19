@@ -30,21 +30,23 @@ const setActivePage = () => {
   let searchParam = url.searchParams;
   const currentPage = searchParam.get("section");
 
-  const homepageSect = document.getElementById("homepageSection")
+ 
 
   if (currentPage) {
-   console.log(currentPage)
+   
+    if (currentPage !== "homepageSection"){
+      document.getElementById("homepageSection").classList.add("hidden");
+    }
+    // console.log(sections)
     sections.forEach(section => { 
-      console.log(section.id)
       
-      if (section.id === currentPage){
-        if (section.id !== "homepageSection"){
-       
-        }
-        section.classList.remove("hidden");
+      if(section.id === currentPage){
+       section.classList.remove("hidden")
+       console.log(section.classList)
       }
-  
-    })}
+    })
+   
+  }
   
 }
 

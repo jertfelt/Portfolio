@@ -6,16 +6,16 @@
     border-radius: 25px;
     border: none;
     background-color: $color--black;
-    a{
+   
       color:$color--lightblue;
       text-decoration: none;
       font-weight: bold;
-    }
+    
   }
   &--contact:hover{
     background-color: $color--white;
-    a{
+    
       color:$color--black;
-    }
+    
   }
 }
