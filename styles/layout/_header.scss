@@ -18,6 +18,9 @@ nav{
   flex-direction: row;
   justify-content: space-around;
   padding-bottom:3rem;
+  @include breakpoint(small-max-m){
+    padding-bottom:5em;
+  }
   img{
     position: fixed;
     left:10%;

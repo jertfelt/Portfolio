@@ -16,11 +16,13 @@
   
       width: 90vw;
       margin: 0 auto;
+      margin-right:1em;
       max-width: 1170px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       grid-column-gap: 9rem;
       grid-row-gap: 9em;
+      
 
     &--txt{
       display:flex;
