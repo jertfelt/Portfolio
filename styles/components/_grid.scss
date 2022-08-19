@@ -2,11 +2,14 @@
 
   &__img{
    max-width:90%;
-    //kom ihåg mobil här
+    
     @include breakpoint(large-min){
       max-width: 1170px;
       min-width: 1170px;
     }
+    @include breakpoint(xxsmall-max){
+      max-width:100%;   
+     }
   }
 
   &__category{
@@ -31,9 +34,18 @@
       width:90%;
       margin-bottom:2em;
       margin-top:-1rem;
+      @include breakpoint(xxsmall-max){
+       width:100%;   
+      }
+      h3{
+        @include breakpoint(xxsmall-max){
+          font-size:18px;
+         }
+      }
       h4{
         margin-left:2rem;
         margin-top:10px;
+       
       }
       @include breakpoint(large-min){
       max-width:900px;

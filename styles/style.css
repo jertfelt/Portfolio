@@ -343,6 +343,12 @@ main {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .grid__img {
+    max-width: 100%;
+  }
+}
+
 .grid__category {
   width: 90vw;
   margin: 0 auto;
@@ -374,6 +380,18 @@ main {
   width: 90%;
   margin-bottom: 2em;
   margin-top: -1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__category--txt {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__category--txt h3 {
+    font-size: 18px;
+  }
 }
 
 .grid__category--txt h4 {
@@ -533,6 +551,13 @@ main {
   margin-bottom: 3em;
 }
 
+@media only screen and (max-width: 600px) {
+  .homepage--about {
+    padding-top: 5em;
+    margin-top: 10em;
+  }
+}
+
 .homepage--aboutTXT {
   background-color: #bee5f5;
   padding: 6em;
@@ -550,9 +575,25 @@ main {
           align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .homepage--aboutTXT {
+    padding: 2em;
+    margin-top: 1em;
+  }
+}
+
 .homepage--aboutTXT h2 {
   margin-top: 1rem;
   padding: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage--aboutTXT h2 {
+    font-size: 24px;
+    padding: 1rem;
+    text-align: left;
+    margin: 0;
+  }
 }
 
 .homepage--herotxt {
@@ -586,6 +627,13 @@ main {
   left: 20%;
 }
 
+@media only screen and (max-width: 600px) {
+  .homepage--heroheaders {
+    padding-top: 1em;
+    margin-top: 4em;
+  }
+}
+
 .homepage--img {
   margin: 3rem;
 }
@@ -593,6 +641,13 @@ main {
 .homepage--img img {
   max-width: 100%;
   border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homepage--img {
+    padding-top: 11em;
+    margin-top: 4em;
+  }
 }
 
 .arrow {
