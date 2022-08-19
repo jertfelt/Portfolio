@@ -16,6 +16,7 @@
 $screen-xxs: 330px;
 $screen-xs: 600px;
 $screen-small: 768px;
+$screen-844: 844px;
 $screen-tablet: 991px;
 $screen-med: 1070px;
 $screen-med-max: 1279px;
@@ -40,7 +41,12 @@ $screen-xl: 1450px;
   } @else if $canvas==small-max-m {
     @media only screen and (max-width: $screen-small) {
       @content;
-    }
+    }}
+    @else if $canvas==max844 {
+      @media only screen and (max-width: $screen-844) {
+        @content;
+      }
+    
   } @else if $canvas==medium-tablet-min {
     @media only screen and (min-width: $screen-tablet) {
       @content;

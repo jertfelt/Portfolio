@@ -18,13 +18,13 @@
     margin-bottom:3em;
   }
   &--aboutTXT{
-    height:100vh;
+    
     background-color: $color--lightblue;
     padding:6em;
     margin-top:2rem;
     margin-bottom:3em;
     h2{
-      margin-top:2em;
+      margin-top:1rem;
       padding:4rem;
     }
     display:flex;
@@ -38,6 +38,9 @@
     flex-direction: column;
     padding-bottom:1rem;
     //mobil
+  }
+  &--categoryheader{
+    padding:5em;
   }
 
   &--header{
@@ -54,6 +57,7 @@
     top:190px;
     left:20%;
   }
+
   &--img{
     margin:3rem;
       img{  

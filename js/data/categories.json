@@ -1,17 +1,6 @@
 { 
   "categories": [ 
-    {
-      "sys": { 
-        "id": "04" },
-      "fields": {
-        "title": "Frontend",
-        "image": { 
-          "fields": { 
-            "file": { 
-              "url": "../styles/img/frontend.png" } } },     
-        "description": "Frontend webbformgivning: statiska hemsidor eller interaktivitet som tex medlemssidor"
-      }
-    },
+    
     {
       "sys": { 
         "id": "01" },
@@ -48,6 +37,18 @@
           "fields": { 
             "file": { 
               "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "04" },
+      "fields": {
+        "title": "Frontend",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/frontend.png" } } },     
+        "description": "Frontend webbformgivning: statiska hemsidor eller interaktivitet som tex medlemssidor"
       }
     }
   ]

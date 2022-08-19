@@ -1,9 +1,12 @@
 .grid{
 
   &__img{
-    max-width: 1170px;
-    min-width: 1170px;
+   max-width:90%;
     //kom ihåg mobil här
+    @include breakpoint(large-min){
+      max-width: 1170px;
+      min-width: 1170px;
+    }
   }
 
   &__category{
@@ -21,16 +24,30 @@
     &--txt{
       display:flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: between;
       align-items: center;
+      padding:1rem;
+      background-color: $color--purple;
+      width:90%;
+      margin-bottom:2em;
+      margin-top:-1rem;
+      h4{
+        margin-left:2rem;
+        margin-top:10px;
+      }
+      @include breakpoint(large-min){
       max-width:900px;
+      }
     }  
     &--txtabove{
+    
+     
+      @include breakpoint(large-min){
       position: relative;
       top:-8em;
       left:20%;
       padding:1.5rem;
-      
+      }
     }
   }
  
@@ -39,14 +56,18 @@
 
 .skewedbg{
   &--black{
-    background-color: $color--fontblack;
-    transform: skew(-0deg);
-    -moz-transform: skew(10deg);
-    -o-transform: skew(10deg);
+    @include breakpoint(large-min){
+      background-color: $color--purple;
+      transform: skew(-0deg);
+      -moz-transform: skew(10deg);
+      -o-transform: skew(10deg);
+    }
   }
   &--reverse{
+    @include breakpoint(large-min){
     transform: skew(-0deg);
     -moz-transform: skew(-10deg);
     -o-transform: skew(-10deg);
+    }
   }
 }

@@ -55,7 +55,7 @@ const drawHomePage = (data) => {
   }
 
   document.getElementById("Frontend").onclick=()=>{
-    window.location.href = "http://www.tovajertfelt.com";
+    window.location.href = "http://www.tovajertfelt.se";
   }
   
 }
