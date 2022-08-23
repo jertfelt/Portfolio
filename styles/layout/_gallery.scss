@@ -1,51 +1,36 @@
 .gallery{
-  &__horizontal{
-    &--container{
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-    &--thumbnails{
-        position: absolute;
-        bottom: 8px;
-        display: flex;
-        flex-direction: row;
-        gap: 6px;
-        div {
-          width: 8px;
-          height: 8px;
-          cursor: pointer;
-          background: #aaa;
-          border-radius: 100%;
-        }
-        div.highlighted {
-          background-color: #777;
-        }
-    }
-  }
+  &__row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
 }
-
-.slides {
-  margin: 0 16px;
-  display: grid;
-  grid-auto-flow: column;
-  gap: 1rem;
-  width: 540px;
-  padding: 0 0.25rem;
-  height: 720px;
-  overflow-y: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-  scrollbar-width: none;
-  div {
-    scroll-snap-align: start;
-    background-color: $color--purple;
+&__column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 1rem;
+  @include breakpoint(small-max-m){
+    flex: 100%;
+    max-width: 100%;
   }
   img {
-    width: 540px;
-    object-fit: contain;
+    margin-top: 1rem;
+    vertical-align: middle;
+    width: 100%;
   }
-  :-webkit-scrollbar {
-    display: none;
+  a{
+    text-decoration: none;
+    color: $color--white;
   }
+}
+&__description{
+  display:flex;
+  background-color: $color--purple;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:1rem;
+  justify-content: space-between;
+  h4{
+    margin-top:1rem;
+  }
+}
 }
