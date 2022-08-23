@@ -28,3 +28,12 @@
     border-radius: 50%;
   }
 }
+
+.mobile{
+  &--hidden{
+    @include breakpoint(small-max-m){
+     display:none;
+      }
+  }
+}
+ 

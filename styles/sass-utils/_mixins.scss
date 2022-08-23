@@ -47,7 +47,12 @@ $screen-xl: 1450px;
         @content;
       }
     
-  } @else if $canvas==medium-tablet-min {
+  } @else if $canvas==min844 {
+    @media only screen and (min-width: $screen-844) {
+      @content;
+    }
+  
+} @else if $canvas==medium-tablet-min {
     @media only screen and (min-width: $screen-tablet) {
       @content;
     }

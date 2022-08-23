@@ -73,50 +73,62 @@
   }
 
   &__row{
-    display:flex;
-    justify-content: space-between;
+    @include flexBox(row, space-between, flex-start);
     flex-wrap: wrap;
-    padding: 3rem;
+
     margin-bottom:1rem;
+    @include breakpoint(small-max){
+      max-width:80%;
+    }
+
+    @include breakpoint(min844){
+      margin: 0 auto;
+
+    }
 
     @include breakpoint(xxsmall-max){
       padding: 1rem;
       margin-bottom:10px;
     }
+
     p{
       max-width:50%;
       }
     img{
       max-width:500px;
-      padding-right: 3rem;
       margin-bottom:3rem;
-      @include breakpoint(small-max-m){
+
+      @include breakpoint(small-max){
+        max-width:80%;
+        margin-bottom:1rem;
+      }
+    }
+    @include breakpoint(small-max-m){
       flex: 100%;
       max-width: 100%;
       }
-    }
+     
+
+  }
+
    
   &__column{
-    flex: 50%;
-    max-width: 50%;
-    padding: 5rem;
-    
-  
- 
+    flex: 80%;
+    max-width: 80%;
   }
 
 }
-}
+
+
+
 //nedan heter slideshow pga ska animera detta vid tillfälle, se animation.scss
 .slideshow{
   &__aboutme{
     padding-top:2rem;
-    padding-bottom:2rem;
+    padding-bottom:1rem;
     color: $color--fontblack;
     font-size:2em;
-    max-width: 600px;
     width:100%;
     text-transform: uppercase;
-  
   }
 }
