@@ -1,37 +1,40 @@
 
 const formGallery = document.getElementById("formGallery");
+const singleImg = document.getElementById("singleFormGallery");
 
 let formArr = [];
-let imgArr = [];
+let singleimgArr = [];
 
 //Create:
 const drawFormgivning = (data) => {
- 
-  // data.forEach(item => {
-  //   // let firstImg = item.fields.image.fields.file01;
-  //   // let secondImg = item.fields.image.fields.file02;
-  //   // let thirdImg = item.fields.image.fields.file03;
-  //   // let fourthImg = item.fields.image.fields.file04;
-  //   // console.log(item.fields.image.fields)
-  //   imgArr.push(item.fields.image.fields)
-  //   console.log(imgArr)
-  // })
+
   data.forEach(item => {
     let article = document.createElement("article");
-    console.log(item.fields.image.fields);
-  
-    
-    
-   
-  
-    // console.log(item.fields.image.fields.file01.url)
+    article.classList.add("formgivning__grid--item")
+
     article.innerHTML = `
-    <img src="">`
+    <h2 class="text--m">${item.fields.title}</h2>
+    <p class="text--s">${item.fields.description}</p>
+    <p class="text--s">${item.fields.indepth}</p>
+    <div class="scroll--right">
+    <img src="${item.fields.image.fields.file01.url}"
+    id="${item.fields.title} ${item.fields.image.fields.file01.id}"
+    alt="${item.fields.title}">
+    <img src="${item.fields.image.fields.file02.url}"
+    id="${item.fields.title} ${item.fields.image.fields.file02.id}"
+    alt="${item.fields.title}">
+    <img src="${item.fields.image.fields.file03.url}"
+    id="${item.fields.title} ${item.fields.image.fields.file03.id}"
+    alt="${item.fields.title}">
+    <img src="${item.fields.image.fields.file04.url}"
+    id="${item.fields.title} ${item.fields.image.fields.file04.id}"
+    alt="${item.fields.title}">
+    </div>`
+
+    formGallery.appendChild(article)
   })
 
 }
-
-
 
 async function getFormgivning() {
   try{
@@ -49,6 +52,8 @@ async function getFormgivning() {
 catch(error){console.log("Fetch fungerar ej, se över getFormgivning")
 console.log(error)}
 }
-
 getFormgivning();
+
+
+
 

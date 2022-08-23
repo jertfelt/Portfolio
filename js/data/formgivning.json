@@ -8,7 +8,7 @@
         "image": { 
           "fields": { 
             "file01": { 
-              "url": "../styles/img/kollektiv-sorg-samples.png" ,
+              "url": "../styles/img/kollektiv-sorg-samples.jpg" ,
               "id": "01-01"
               },
               "file02":{
@@ -16,7 +16,7 @@
                 "id":"01-02"
               },
               "file03":{
-                "url":"../styles/img/kollektiv-sorg-pitch.png",
+                "url":"../styles/img/kollektiv-sorg-pitch.jpg",
                 "id":"01-03"
               },
               "file04":{
@@ -26,7 +26,7 @@
             }
         },     
         "description": "Den nystartade gruppen KOLLEKTIV SORG behövde en gripande grafisk profil.",
-        "in-depth": "Uppdraget gick ut på att göra en visuell profil som fungerar främst för sociala medier, och som den nystartade gruppen kunde använda i sitt kampanjande."
+        "indepth": "Uppdraget gick ut på att göra en visuell profil som fungerar främst för sociala medier, och som den nystartade gruppen kunde använda i sitt kampanjande."
       }
     },
     {
@@ -49,13 +49,13 @@
                 "id":"01-03"
               },
               "file04":{
-                "url":"../styles/img/globalportalen-grafiska-riktlinjer-2022-tova-jertfelt-forslag.jpg",
+                "url":"../styles/img/globalportalen-grafiska-riktlinjer-2022-tova-jertfelt-forslag.png",
                 "id":"01-04"
               }
             }
         },     
         "description": "Organisationen Globalportalen behövde fräscha upp sin visuella profil, främst på webben.",
-        "in-depth": "Mitt uppdrag var att formge mallar, förbättra den grafiska profilen, och knyta ihop de olika sociala medie-kanalerna så organisationen får en enhetlig look, oavsett kanal."
+        "indepth": "Mitt uppdrag var att formge mallar, förbättra den grafiska profilen, och knyta ihop de olika sociala medie-kanalerna så organisationen får en enhetlig look, oavsett kanal."
       }
     },
     {
@@ -66,7 +66,7 @@
         "image": { 
           "fields": { 
             "file01": { 
-              "url": "../styles/img/forum-syd-presentation-website.jpg" ,
+              "url": "../styles/img/forum-syd-presentation-website.png" ,
               "id": "01-01"
               },
               "file02":{
@@ -74,7 +74,7 @@
                 "id":"01-02"
               },
               "file03":{
-                "url":"../styles/img/forum-syd-website-presentation-2.jpg",
+                "url":"../styles/img/forum-syd-website-presentation-2.png",
                 "id":"01-03"
               },
               "file04":{
@@ -84,24 +84,7 @@
             }
         },     
         "description": "Organisationen Forum Syd behövde förenkla och förtydliga sin grafiska profil.",
-        "in-depth": "Jag tittade på den befintliga profilen och valde att skala ner den och förfina den, så organisationen kunde behålla en tydlig röd tråd i sin kommunikation."
-      }
-    },
-    {
-      "sys": { 
-        "id": "02" },
-      "fields": {
-        "title": "Berwaldhallen",
-        "image": { 
-          "fields": { 
-            "file01": { 
-              "url": "../styles/img/berwaldhallen-jertfelt.jpg" ,
-              "id": "01-01"
-              }
-            }
-        },     
-        "description": "Affisch till Interplay i Berwaldhallen, en serie konserter som varade 2014-2015. Varje konsert hade olika teman, och denna var Music, Biology and the Brain där dirigenten Daniel Harding möter neuroforskaren Fredrik Ullén",
-        "in-depth": "Jag spelade in mina egna hjärnvågor medans jag lyssnade på Beethoven. Jag ville se, och illustrera, hur musiken påverkade min hjärna och hand, och på så sätt skapa en synestesi mellan musik, kreativitet och hjärnan. Inspirationen var EEG-vågor, och notblad."
+        "indepth": "Jag tittade på den befintliga profilen och valde att skala ner den och förfina den, så organisationen kunde behålla en tydlig röd tråd i sin kommunikation."
       }
     },
     {
@@ -120,7 +103,7 @@
               "id":"01-02"
             },
             "file03":{
-              "url":"../styles/img/inbjudan-sodertalje-family-first-ruejas-jonson-jertfelt.png",
+              "url":"../styles/img/inbjudan-sodertalje-family-first-ruejas-jonson-jertfelt.jpg",
               "id":"01-03"
             },
             "file04":{
@@ -130,7 +113,7 @@
             }
         },     
         "description": "Södertälje Konsthall bjöd in mig och Nathalie Ruejas Jonson till att bidra med vår formgivning som ett verk.",
-        "in-depth": "Utställningen handlar om hur familj kan tolkas i ett queert perspektiv. Vi formgav och animerade posters och inbjudningar. Vi valde att göra en abstrakt poster där ordet kärnfamilj böjs, multipliceras, förändras. Ett av typsnitten som vi jobbade med är 'Queer Type' gjord av Minna Sakaria (SE)."
+        "indepth": "Utställningen handlar om hur familj kan tolkas i ett queert perspektiv. Vi formgav och animerade posters och inbjudningar. Vi valde att göra en abstrakt poster där ordet kärnfamilj böjs, multipliceras, förändras. Ett av typsnitten som vi jobbade med är 'Queer Type' gjord av Minna Sakaria (SE)."
       }
     }
   ]

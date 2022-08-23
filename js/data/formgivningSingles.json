@@ -1,0 +1,21 @@
+{ 
+  "formgivning02": [ 
+    {
+  "sys": { 
+    "id": "02" },
+  "fields": {
+    "title": "Berwaldhallen",
+    "image": { 
+      "fields": { 
+        "file01": { 
+          "url": "../styles/img/berwaldhallen-jertfelt.jpg" ,
+          "id": "01-01"
+          }
+        }
+    },     
+    "description": "Affisch till Interplay i Berwaldhallen, en serie konserter som varade 2014-2015. Varje konsert hade olika teman, och denna var Music, Biology and the Brain där dirigenten Daniel Harding möter neuroforskaren Fredrik Ullén",
+    "in-depth": "Jag spelade in mina egna hjärnvågor medans jag lyssnade på Beethoven. Jag ville se, och illustrera, hur musiken påverkade min hjärna och hand, och på så sätt skapa en synestesi mellan musik, kreativitet och hjärnan. Inspirationen var EEG-vågor, och notblad."
+  }
+}
+]
+}
