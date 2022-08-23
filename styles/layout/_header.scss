@@ -11,6 +11,7 @@
   background-color: $color--background;
   padding:2rem;
   top:0;
+  
 }
 nav{
   display: flex;
@@ -30,6 +31,7 @@ nav{
     }
   }
   span{
+   
     display: flex;
   align-items: flex-end;
   flex-direction: row;
@@ -38,6 +40,9 @@ nav{
     right:1rem;
     @include breakpoint(small-max-m){
       right:3rem;
+    }
+    @include breakpoint(xxsmall-max){
+      margin-left:2rem;
     }
   }
 }
