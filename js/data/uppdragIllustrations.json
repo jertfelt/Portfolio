@@ -1,0 +1,152 @@
+{ 
+  "uppdragIllustrations": [ 
+    
+    {
+      "sys": { 
+        "id": "01" },
+      "fields": {
+        "title": "LSU",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/bag-lsu.jpg" } } },     
+        "description": "Illustrationer åt LSU ungdomsorganisationer.",
+        "link": "/lsu"
+      }
+    },
+   
+    {
+      "sys": { 
+        "id": "02" },
+      "fields": {
+        "title": "OmVärlden",
+        "description": "Tidningsillustrationer till OmVärlden",
+        "link": "/omvarlden",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/deladgladje-dubbel-ge-pengar-app-tova-jertfelt-illustration-2018-omvarlden.jpg" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "03" },
+      "fields": {
+        "title": "Gåvokort",
+        "link": "/amnesty-gavokort",
+        "description": "Illustrerade gåvokort åt Amnesty Sverige",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/gavokort-hemsida-tova-jertfelt-amnesty-3.png" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "04" },
+      "fields": {
+        "title": "Modersmål - Mona Monasar",
+        "link": "/monasar",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/mona-monasar-modersmal-tova-jertfelt.jpg" } } },     
+        "description": "Illustrationer till Mona Monasars debutbok Modersmål, utgiven av Natur & Kultur 2017."
+      }
+    },
+    {
+      "sys": { 
+        "id": "05" },
+      "fields": {
+        "title": "På flykt",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/pa-flykt-republic-jertfelt-sida3.png" } } },     
+        "description": "Seriereportage åt tidningen RE:Public 2018. En flyktings berättelse om hans flykt från Eritrea till Sverige.",
+        "link": "/re:public-paflykt"
+      }
+    },
+    {
+      "sys": { 
+        "id": "06" },
+      "fields": {
+        "title": "Klimatkämpar",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/republic-jertfelt-klimatkampar-illustration-usa.jpg" } } },     
+        "description": "En serie porträtt av klimatkämpar som är mordhotade/mördare, illustrerade åt RE:Public, publicerat 2017.",
+        "link": "/re:public-klimat"
+      }
+    },
+    {
+      "sys": { 
+        "id": "07" },
+      "fields": {
+        "title": "WESCF",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/sustainable-development-wescf-tovajertfeltillustration-webb.jpg" } } },     
+        "description": "Serie illustrationer åt organisationen WESCF.",
+        "link": "/wescf"
+      }
+    },
+    {
+      "sys": { 
+        "id": "08" },
+      "fields": {
+        "title": "Frihet.se",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/TJ-illustration1-NMRochSD-hotar-demokrati.jpg" } } },     
+        "description": "Serie illustrationer till Henrik Arnstads artikel om NMR och SD:s relation till varandra. Utgiven på frihet.se 2017",
+        "link": "/sd-nmr-frihet",
+        "alternateLink": "https://www.frihet.se/nmr-och-sd-fascism-i-tva-fodral"
+      }
+    },
+    {
+      "sys": { 
+        "id": "09" },
+      "fields": {
+        "title": "BRAND",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/tova-jertfelt-brand-2016-alexandra-starud-varldens-snallaste-vita-makt-tidning-editorial-illustration.png" } } },     
+        "description": "Tidningsillustrationer till tidningen BRAND",
+        "link": "/brand-illustrations"
+      }
+    },
+    {
+      "sys": { 
+        "id": "10" },
+      "fields": {
+        "title": "Den svenska självbilden",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/tova-jertfelt-svensk-bild-2014.jpg" } } },     
+        "description": "Utifrån en rad seminarier skulle jag illustrera vad seminariedeltagarna hade talat om. Resultatet blev denna bild. Uppdragsgivare: TYP.",
+        "link": "/typ"
+      }
+    },
+    {
+      "sys": { 
+        "id": "11" },
+      "fields": {
+        "title": "Under Ditt Finger",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/under-ditt-finger-tova-jertfelt-collage--2.png" } } },     
+        "description": "Collage och bokomslag till boken Under Ditt Finger, utgiven av Natur & Kultur 2017."
+      }
+    }
+
+
+
+  ]
+}

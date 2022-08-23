@@ -789,6 +789,10 @@ nav span {
   margin-top: 1rem;
 }
 
+.gallery--hoverfunction :hover {
+  opacity: 70%;
+}
+
 .disclaimer__container {
   background-color: #483d8b;
   opacity: 90%;
