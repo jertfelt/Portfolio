@@ -1,0 +1,71 @@
+// .slideshow{
+//   &__aboutme{
+    
+//     padding-top:2rem;
+//     padding-bottom:2rem;
+//     color: $color--fontblack;
+//     font-size:2em;
+//     max-width: 600px;
+//     width:100%;
+//     text-transform: uppercase;
+//    }
+// }
+// // }
+
+
+// .scroll{
+//   overflow:hidden;
+//   position: relative;
+//   display:flex;
+
+//   div {
+//     flex-wrap: nowrap;
+//     width:100%;
+//     text-transform: uppercase;
+//     animation: animate 4s linear infinite;
+//   }
+//   @keyframes animate {
+//     0%
+//     { transform: translateX(10%)}
+//     100%{
+//       transform: translateX(-30%)
+//     }
+//   }
+// }
+
+
+.slideshow{
+  &__clients{
+    
+    padding-top:2rem;
+    padding-bottom:2rem;
+    color: $color--fontblack;
+    font-size:2em;
+    width:100%;
+    text-transform: uppercase;
+   }
+}
+// }
+
+
+.scroll__clients{
+  overflow:hidden;
+  position: relative;
+  display:flex;
+
+  div {
+    flex-wrap: nowrap;
+    width:100%;
+    text-transform: uppercase;
+    animation: animate 30s linear infinite;
+  }
+  @keyframes animate {
+    0%
+    { transform: translateX(10%)}
+    100%{
+      transform: translateX(-30%)
+    }
+  }
+}
+
+

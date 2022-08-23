@@ -1,12 +1,8 @@
-// console.log("showCategories.js is connected")
-
 
 
 const categoriesHomePage = document.getElementById("allContentHomepage");
 
 const queryParams = new URLSearchParams(location.search);
-
-console.log(queryParams);
 
 let categoriesArr = [];
 
@@ -69,7 +65,7 @@ const drawHomePage = (data) => {
 async function getCategories() {
   try{
   let res = await fetch("../js/data/categories.json");
-  // const resOff = await fetch("https://jertfelt.github.io/js/data/categories.json");
+
 
   const data= await res.json();
 

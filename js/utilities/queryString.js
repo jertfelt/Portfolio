@@ -26,7 +26,7 @@ const sections = document.querySelectorAll(".section");
 
 const setActivePage = () => {
   let url = new URL(window.location.href);
-
+  console.log(url)
   let searchParam = url.searchParams;
   const currentPage = searchParam.get("section");
 
@@ -34,12 +34,12 @@ const setActivePage = () => {
     if (currentPage !== "homepageSection"){
       document.getElementById("homepageSection").classList.add("hidden");
     }
-    // console.log(sections)
+  
     sections.forEach(section => { 
       
       if(section.id === currentPage){
-       section.classList.remove("hidden")
-       console.log(section.classList)
+        section.classList.remove("hidden")
+        console.log(section.classList)
       }
     })
    
