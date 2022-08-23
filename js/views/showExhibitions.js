@@ -9,7 +9,8 @@ const drawExhibitions = (data) => {
     paragraph.classList.add("grid__exhibitions--exhibits");
     paragraph.innerHTML = `
    
-    <p class="text--s headerfont" id="${item.fields.title}">${item.fields.title}</p>
+    <p class="text--s headerfont" 
+    id="${item.fields.title}">${item.fields.title}</p>
     <p>${item.fields.date}</p>
     <p>${item.fields.description}</p>
     
