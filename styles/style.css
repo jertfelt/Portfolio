@@ -330,6 +330,65 @@ main {
   color: #282828;
 }
 
+.grid__exhibitions {
+  margin: 0 auto;
+  max-width: 1170px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(280px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 1em;
+  padding-top: 3em;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__exhibitions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 600px) and (max-width: 600px) {
+  .grid__exhibitions p {
+    font-size: 24px;
+  }
+}
+
+.grid__exhibitions--exhibits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid__exhibitions--exhibits {
+    padding: 0rem;
+  }
+}
+
 .grid__img {
   max-width: 90%;
 }
@@ -350,7 +409,6 @@ main {
 .grid__category {
   width: 90vw;
   margin: 0 auto;
-  margin-right: 1em;
   max-width: 1170px;
   display: -ms-grid;
   display: grid;
@@ -470,6 +528,12 @@ main {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 600px) {
+  .slideshow__clients {
+    padding: 1rem;
+  }
+}
+
 .scroll__clients {
   overflow: hidden;
   position: relative;
@@ -479,12 +543,26 @@ main {
 }
 
 .scroll__clients div {
+  padding: 1em;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   width: 100%;
   text-transform: uppercase;
-  -webkit-animation: animate 30s linear infinite;
-          animation: animate 30s linear infinite;
+  -webkit-animation: animate 20s linear infinite;
+          animation: animate 20s linear infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  .scroll__clients div {
+    -webkit-animation: none;
+            animation: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .scroll__clients div {
+    padding: 1rem;
+  }
 }
 
 @-webkit-keyframes animate {
@@ -846,13 +924,33 @@ nav span {
 }
 
 .aboutme {
+  padding: 3rem;
   padding-top: 5em;
-  padding: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme {
+    padding: 1rem;
+  }
 }
 
 .aboutme hr {
   color: #344ce6;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme hr {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme__content {
+    padding: 0rem;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 .aboutme__clients {
@@ -861,10 +959,36 @@ nav span {
   margin-top: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .aboutme__clients {
+    padding: 1rem;
+    width: 100%;
+  }
+}
+
+.aboutme__button {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme__button {
+    margin-bottom: 0;
+  }
+}
+
 .aboutme__exhibitions {
   width: 80%;
   margin: 0 auto;
   padding-top: 3em;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme__exhibitions {
+    padding: 1rem;
+    width: 100%;
+  }
 }
 
 .aboutme__exhibitions--exhibits {
@@ -881,6 +1005,14 @@ nav span {
   padding-bottom: 3rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .aboutme__text {
+    padding: 1rem;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+}
+
 .aboutme__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -892,6 +1024,13 @@ nav span {
       flex-wrap: wrap;
   padding: 3rem;
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutme__row {
+    padding: 1rem;
+    margin-bottom: 10px;
+  }
 }
 
 .aboutme__row p {
@@ -919,15 +1058,6 @@ nav span {
           flex: 50%;
   max-width: 50%;
   padding: 5rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .aboutme__row__column {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-    max-width: 100%;
-  }
 }
 
 .slideshow__aboutme {

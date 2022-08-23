@@ -1,5 +1,32 @@
 .grid{
 
+  &__exhibitions{
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 1em;
+    padding-top:3em;
+    @include breakpoint(xxsmall-max){
+      @include flexBox(column,  flex-start, center);
+      p{
+        @include breakpoint(xxsmall-max){
+          font-size:24px;
+          
+        }
+      }
+    }
+
+    &--exhibits{
+      @include flexBox(column,  flex-start, center);
+      padding:1rem;
+      @include breakpoint(xxsmall-max){
+        padding:0rem;
+      }
+    }
+  }
+
   &__img{
    max-width:90%;
     
@@ -16,7 +43,7 @@
   
       width: 90vw;
       margin: 0 auto;
-      margin-right:1em;
+    
       max-width: 1170px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

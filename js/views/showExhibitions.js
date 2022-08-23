@@ -6,14 +6,14 @@ const drawExhibitions = (data) => {
   data.forEach(item => {
     let paragraph = document.createElement("article");
 
-    paragraph.classList.add("aboutme__exhibitions--exhibits");
+    paragraph.classList.add("grid__exhibitions--exhibits");
     paragraph.innerHTML = `
-    <span class="aboutme__exhibitions--column">
+   
     <p class="text--s headerfont" id="${item.fields.title}">${item.fields.title}</p>
     <p>${item.fields.date}</p>
     <p>${item.fields.description}</p>
     
-    </span>
+   
     `
     exhibitionDiv.appendChild(paragraph);
 

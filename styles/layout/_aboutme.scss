@@ -1,32 +1,61 @@
 .aboutme{
+  padding:3rem;
   padding-top:5em;
-  padding:2rem;
- 
+
+  @include breakpoint(xxsmall-max){
+    padding: 1rem;
+  }
 
   hr{
   color: $color--blue;
   margin-bottom:2rem;
+  @include breakpoint(xxsmall-max){
+    visibility: hidden;
+  }
+  
+  }
+
+  &__content{
+    @include breakpoint(xxsmall-max){
+      padding: 0rem;
+      width:100%;
+      margin: 0 auto;
+    }
   }
 
   &__clients{
     width:80%;
     margin: 0 auto;
     margin-top:3rem;
-   
-  
+    @include breakpoint(xxsmall-max){
+      padding:1rem;
+      width:100%;
+    }
+  }
+  &__button{
+    margin: 0 auto;
+    margin-top:2rem;
+    margin-bottom:2rem;  
+    @include breakpoint(xxsmall-max){
+    margin-bottom:0;
+    }
   }
 
   &__exhibitions{
       width:80%;
       margin: 0 auto;
       padding-top:3em;
+      @include breakpoint(xxsmall-max){
+        padding:1rem;
+        width:100%;
+      }
 
       &--exhibits{
-        
         margin:2rem;
         p{
           line-height:1.8rem;
         }
+    
       }
     
   }
@@ -35,6 +64,12 @@
     width:80%;
     margin: 0 auto;
     padding-bottom:3rem;
+    @include breakpoint(xxsmall-max){
+      padding: 1rem;
+      width:100%;
+      padding-bottom:2rem;
+    }
+  
   }
 
   &__row{
@@ -43,6 +78,11 @@
     flex-wrap: wrap;
     padding: 3rem;
     margin-bottom:1rem;
+
+    @include breakpoint(xxsmall-max){
+      padding: 1rem;
+      margin-bottom:10px;
+    }
     p{
       max-width:50%;
       }
@@ -55,17 +95,16 @@
       max-width: 100%;
       }
     }
+   
   &__column{
     flex: 50%;
     max-width: 50%;
     padding: 5rem;
     
-    @include breakpoint(small-max-m){
-    flex: 100%;
-    max-width: 100%;
-   
+  
+ 
   }
-  }
+
 }
 }
 //nedan heter slideshow pga ska animera detta vid tillfälle, se animation.scss
@@ -78,5 +117,6 @@
     max-width: 600px;
     width:100%;
     text-transform: uppercase;
-   }
+  
+  }
 }
