@@ -112,12 +112,19 @@
         max-width:80%;
         margin-bottom:1rem;
       }
+      @include breakpoint(xxsmall-max){
+        padding: 0rem;
+        width:100%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom:1rem;
+      }
     }
     @include breakpoint(small-max-m){
       flex: 100%;
       max-width: 100%;
       }
-     
+    
 
   }
 
