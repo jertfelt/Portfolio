@@ -29,21 +29,23 @@ const setActivePage = () => {
   console.log(url)
   let searchParam = url.searchParams;
   const currentPage = searchParam.get("section");
+  console.log(currentPage)
 
   if (currentPage) {   
     if (currentPage !== "homepageSection"){
       document.getElementById("homepageSection").classList.add("hidden");
     }
-  
+    
     sections.forEach(section => { 
-      
       if(section.id === currentPage){
+       
         section.classList.remove("hidden")
-        console.log(section.classList)
+      
       }
     })
-   
+  
   }
+
   
 }
 

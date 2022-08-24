@@ -528,7 +528,7 @@ main {
 
 @media only screen and (min-width: 991px) {
   .illustration__grid {
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr)2;
         grid-template-columns: repeat(2, 1fr);
   }
 }
