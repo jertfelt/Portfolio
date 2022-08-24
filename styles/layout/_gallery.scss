@@ -2,8 +2,6 @@
 
   &__simple{
     margin-top: 2rem;
-    
-    
   }
 
   &__scroll{
@@ -13,8 +11,18 @@
       img{
         margin-right:15px;
         max-height:700px;
+        @include breakpoint(small-max-m){
+        max-height:100%;
+        margin-left: 15px;
+        margin-bottom:15px;
+        }
       }
-    
+      @include breakpoint(small-max-m){
+        display:flex;
+        overflow-x: none;
+        flex-direction: column;
+       
+      }
     }}
   &__row {
   display: flex;
@@ -36,10 +44,10 @@
   }
   a{
     text-decoration: none;
-    color: $color--white;
   }
 }
 &__description{
+  color: $color--white;
   display:flex;
   background-color: $color--fontblack;
   align-items: center;

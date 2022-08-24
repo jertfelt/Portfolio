@@ -125,12 +125,17 @@
   @include breakpoint(medium-tablet-min){
     grid-template-columns: repeat(2, 1fr); 
   }
+ 
   &--imagebutton{
     margin-top:4em;
     background-color: $color--fontblack;
-  color: white;
+  color: $color--white;
   padding: 2rem;
-  
+  @include breakpoint(max844){
+    margin-top:10px;
+    background-color: $color--background;
+    color: $color--blue;
+  }
   img{
     margin-top:1rem;
     width:100%;
@@ -156,6 +161,11 @@
       p{
         padding-left:2.1em;
         width:80%;
+        @include breakpoint(small-max-m){
+          font-size:20px;
+          line-height:1.8rem;
+          
+        }
       }
       img{
         max-width:100%;

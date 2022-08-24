@@ -241,6 +241,10 @@
       left:4em;
       width:60px;
       filter: drop-shadow(0 0 0.75rem $color--fontblack);
+      @include breakpoint(small-max-m){
+        visibility: hidden;
+        
+      }
     }
   }
 }

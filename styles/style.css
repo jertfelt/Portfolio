@@ -535,8 +535,16 @@ main {
 .illustration__grid--imagebutton {
   margin-top: 4em;
   background-color: #000;
-  color: white;
+  color: #f4f4f4;
   padding: 2rem;
+}
+
+@media only screen and (max-width: 844px) {
+  .illustration__grid--imagebutton {
+    margin-top: 10px;
+    background-color: #d5b3e6;
+    color: #344ce6;
+  }
 }
 
 .illustration__grid--imagebutton img {
@@ -564,6 +572,13 @@ main {
 .formgivning__grid--item p {
   padding-left: 2.1em;
   width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .formgivning__grid--item p {
+    font-size: 20px;
+    line-height: 1.8rem;
+  }
 }
 
 .formgivning__grid--item img {
@@ -664,14 +679,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   #site_header {
-    background-color: #f4f4f4;
     padding: 1rem;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #site_header {
-    background-color: #f4f4f4;
   }
 }
 
@@ -1089,6 +1097,12 @@ nav span {
           filter: drop-shadow(0 0 0.75rem #000);
 }
 
+@media only screen and (max-width: 768px) {
+  .formgivning__grid--abovegallery {
+    visibility: hidden;
+  }
+}
+
 #site_footer {
   left: 0;
   margin-left: 0;
@@ -1303,6 +1317,27 @@ nav span {
   max-height: 700px;
 }
 
+@media only screen and (max-width: 768px) {
+  .gallery__scroll--right img {
+    max-height: 100%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery__scroll--right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .gallery__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1337,10 +1372,10 @@ nav span {
 
 .gallery__column a {
   text-decoration: none;
-  color: #f4f4f4;
 }
 
 .gallery__description {
+  color: #f4f4f4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

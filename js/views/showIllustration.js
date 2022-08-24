@@ -112,14 +112,14 @@ const drawJobIllustrationGallery = (data) => {
     content.innerHTML=`
     <div class="pointer"
     id="${item.fields.title}">
-    <a href="${item.fields.link}">
+    
     <img src="${item.fields.image.fields.file.url}"
     alt="${item.fields.title} ${item.fields.description}">
     <span class="gallery__description">
     <h3 class="text--m headerfont">${item.fields.title}</h3>
     <h4 class="text--s">${item.fields.description}</h4>
     </span>
-    </a>
+   
     </div>
     `
     secondCol.appendChild(content);
@@ -130,14 +130,14 @@ const drawJobIllustrationGallery = (data) => {
     content.innerHTML=`
     <div class="pointer"
     id="${item.fields.title}">
-    <a href="${item.fields.link}">
+
     <img src="${item.fields.image.fields.file.url}"
     alt="${item.fields.title} ${item.fields.description}">
     <span class="gallery__description">
     <h3 class="text--m headerfont">${item.fields.title}</h3>
     <h4 class="text--s">${item.fields.description}</h4>
     </span>
-    </a>
+   
     </div>
     `
     firstCol.appendChild(content);

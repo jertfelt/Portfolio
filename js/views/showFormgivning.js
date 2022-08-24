@@ -14,7 +14,7 @@ const drawFormgivningSingle = (data) => {
     
     article.innerHTML = `
     <span>
-      <h2 class="text--m">${item.fields.title}</h2>
+      <h2 class="text--m headerfont">${item.fields.title}</h2>
       <p class="text--s">${item.fields.description}</p>
       <p class="text--s">${item.fields.indepth}</p>
     </span>
@@ -38,7 +38,7 @@ const drawFormgivning = (data) => {
 
     article.innerHTML = `
     <span>
-      <h2 class="text--m">${item.fields.title}</h2>
+      <h2 class="text--m headerfont">${item.fields.title}</h2>
       <p class="text--s">${item.fields.description}</p>
       <p class="text--s">${item.fields.indepth}</p>
     </span>
