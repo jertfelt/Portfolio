@@ -662,6 +662,19 @@ main {
   top: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  #site_header {
+    background-color: #f4f4f4;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #site_header {
+    background-color: #f4f4f4;
+  }
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -746,6 +759,15 @@ nav span {
   }
 }
 
+@media only screen and (min-width: 600px) {
+  .aboutme {
+    padding: 5rem;
+    margin: 4rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
 .aboutme hr {
   color: #344ce6;
   margin-bottom: 2rem;
@@ -826,6 +848,18 @@ nav span {
     margin-left: 2rem;
     line-height: 2.8rem;
   }
+  .aboutme__text p {
+    line-height: 2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutme__text {
+    width: 80%;
+  }
+  .aboutme__text p {
+    font-size: 18px;
+  }
 }
 
 .aboutme__row {
@@ -845,12 +879,6 @@ nav span {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 1rem;
-}
-
-@media only screen and (min-width: 768px) {
-  .aboutme__row {
-    max-width: 80%;
-  }
 }
 
 @media only screen and (min-width: 844px) {
@@ -903,6 +931,13 @@ nav span {
         -ms-flex: 100%;
             flex: 100%;
     max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutme__row {
+    max-width: 80%;
+    margin: 0 auto;
   }
 }
 

@@ -6,6 +6,12 @@
     padding: 1rem;
   }
   
+  @include breakpoint(xsmall-max){
+    padding:5rem;
+    margin:4rem;
+    max-width:80%;
+    margin: 0 auto;
+    }
 
   hr{
   color: $color--blue;
@@ -74,6 +80,17 @@
       margin: 0 auto;
       margin-left:2rem;
       line-height: 2.8rem;
+      p{
+        line-height:2rem;
+      }
+    }
+    @include breakpoint(xsmall-max){
+      
+      width:80%;
+      p{
+       
+        font-size:18px;
+      }
     }
   
   }
@@ -83,9 +100,7 @@
     flex-wrap: wrap;
 
     margin-bottom:1rem;
-    @include breakpoint(small-max){
-      max-width:80%;
-    }
+   
 
     @include breakpoint(min844){
       margin: 0 auto;
@@ -99,8 +114,7 @@
       margin: 0 auto;
       margin-left:2rem;
     }
-   
-
+  
     p{
       max-width:50%;
       }
@@ -124,6 +138,11 @@
       flex: 100%;
       max-width: 100%;
       }
+      @include breakpoint(xsmall-max){
+       
+        max-width:80%;
+        margin: 0 auto;
+        }
     
 
   }

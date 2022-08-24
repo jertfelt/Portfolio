@@ -11,6 +11,15 @@
   background-color: $color--background;
   padding:2rem;
   top:0;
+  @include breakpoint(xxsmall-max){
+    background-color:$color--white;
+    padding:1rem;
+  }
+  @include breakpoint(small-max-m){
+    background-color: $color--white;
+    
+  }
+
   
 }
 nav{
