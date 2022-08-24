@@ -16,13 +16,32 @@
     flex-direction: column;
     align-items: center;
     margin-bottom:3em;
+    @include breakpoint(xxsmall-max){
+      padding-top:5em;
+      margin-top:10em;
+    }
+  
   }
   &--aboutTXT{
+    
     background-color: $color--lightblue;
-    padding:5rem;
+    padding:6em;
     margin-top:2rem;
+    margin-bottom:3em;
+    @include breakpoint(xxsmall-max){
+      padding:2em;
+      margin-top:1em;
+    }
     h2{
+      margin-top:1rem;
       padding:4rem;
+      @include breakpoint(xxsmall-max){
+        font-size:24px;
+        padding:1rem;
+        text-align: left; 
+        margin: 0; 
+        line-height:2rem;
+       }
     }
     display:flex;
     flex-direction: column;
@@ -35,9 +54,22 @@
     flex-direction: column;
     padding-bottom:1rem;
     //mobil
+    @include breakpoint(small-max-m){
+      margin-top:-8em;
+    }
+   
+  }
+  &--categoryheader{
+    padding:5em;
+    @include breakpoint(small-max-m){
+      padding:1em;
+      h2{font-size:50px;}
+      
+    }
   }
 
   &--header{
+    
     width: 100%;
     z-index:40;
   }
@@ -50,14 +82,30 @@
     position: absolute;
     top:190px;
     left:20%;
+    @include breakpoint(xxsmall-max){
+      padding-top:1em;
+      margin-top:2em;
+    }
+    @include breakpoint(small-max-m){
+      margin-top:-2em;
+      left:10%;
+    }
   }
+
   &--img{
     margin:3rem;
+    margin-top:12em;
+  
       img{  
         max-width:100%;
         border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
+        
       }
-    //*lägg in mobilversion här!
+      @include breakpoint(xxsmall-max){
+        padding-top:11em;
+        margin-top:4em;
+      }
+
   }
 }
 
@@ -69,6 +117,7 @@
 .arrow:hover{
   opacity:20%;
 }
+
 
 // #imgSlide{
 //   z-index: 0;

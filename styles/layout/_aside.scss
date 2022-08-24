@@ -1,0 +1,64 @@
+
+
+.disclaimer{
+  &__container{
+ 
+    background-color: $color--purple;
+    opacity: 90%;
+
+    @include breakpoint(extra-large){
+      position: fixed;
+      top: 330px;
+      right:0;
+      width:20%;
+      height:15%;
+      transition: all 0.3s linear;
+    }
+    @include breakpoint(large-max){
+     visibility: none;
+      }
+  }
+  &__transparentBack{
+    visibility: visible;
+  }
+  &__content{
+    @include breakpoint(extra-large){
+    width:20%;
+    position: fixed;
+    top: 350px;
+    right: 0;
+    height:200px;
+    padding:1.5rem;
+    transition: all 0.3s linear;
+    }
+    @include breakpoint(large-max){
+    position: absolute;
+    top: 900px;
+    right:0;
+    width:300px;
+    height:200px;
+    transition: all 0.3s linear;
+    padding:1.5rem;
+    transition: all 0.3s linear;
+    }
+    @include breakpoint(max844){
+      visibility: hidden;
+    }
+    background: $color--white;
+    color: $color--purple;
+   
+    a{
+      font-weight: bold;
+      color:$color--blue;
+      text-decoration: none;
+    }
+  }
+  &__show{
+    transform: translateX(0);
+  }
+  &--close{
+    cursor:pointer;
+    height:30px;
+  }
+}
+

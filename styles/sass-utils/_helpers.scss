@@ -6,16 +6,36 @@
   display: block;
 }
 
+.under{
+  z-index:0;
+}
+.above{
+  z-index:30;
+}
+
 .pointer{
   cursor: pointer;
 }
 
-.workinprogress{
-  padding:5em;
-  margin-bottom:8em;
 
-  h3{
-    margin-top:1em;
-    margin-bottom:1rem;
+.margintop{
+  &--l{
+    margin-top:5em;
+  }
+
+}
+
+.img{
+  &__round{
+    border-radius: 50%;
   }
 }
+
+.mobile{
+  &--hidden{
+    @include breakpoint(small-max-m){
+     display:none;
+      }
+  }
+}
+

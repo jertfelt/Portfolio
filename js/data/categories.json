@@ -1,5 +1,6 @@
 { 
   "categories": [ 
+    
     {
       "sys": { 
         "id": "01" },
@@ -12,6 +13,7 @@
         "description": "Tidningsillustrationer, bokillustrationer, publika verk, animationer, serier och dylikt."
       }
     },
+   
     {
       "sys": { 
         "id": "02" },
@@ -34,7 +36,19 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.jpg" } } }
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.png" } } }
+      }
+    },
+    {
+      "sys": { 
+        "id": "04" },
+      "fields": {
+        "title": "Frontend",
+        "image": { 
+          "fields": { 
+            "file": { 
+              "url": "../styles/img/frontend.png" } } },     
+        "description": "Frontend webbformgivning: statiska hemsidor eller interaktivitet som tex medlemssidor"
       }
     }
   ]

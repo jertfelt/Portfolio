@@ -1,10 +1,8 @@
-// console.log("showCategories.js is connected")
+
 
 const categoriesHomePage = document.getElementById("allContentHomepage");
 
 const queryParams = new URLSearchParams(location.search);
-
-console.log(queryParams);
 
 let categoriesArr = [];
 
@@ -15,23 +13,21 @@ const drawHomePage = (data) => {
 
     article.innerHTML=`
     <article id="${item.fields.title}"
-    class="grid__category">
+    class="grid__category ">
 
-    <div class="pointer grid__category--container">
+    <div class="pointer">
     <img
-    class="grid__img"
+    class="grid__img under"
     src="${item.fields.image.fields.file.url}"
-    alt="${item.fields.title}
-    </img>
-    <span class="grid__category--txt">
+    alt="${item.fields.title}"
+    >
+    <span class="grid__category--txt above grid__category--txtabove skewedbg--black">
     <h3 
-    class="text--m headerfont text--blue">
+    class="text--m headerfont text--lightblue skewedbg--reverse">
     ${item.fields.title}</h3>
-    <h4>${item.fields.description}</h4>
+    <h4 class="text--bold text--white  skewedbg--reverse">${item.fields.description}</h4>
     </span>
-    
- 
-    
+
     </div>
     <img src="${item.fields.image.fields.file.url}"
     class="grid__category--img"
@@ -43,25 +39,33 @@ const drawHomePage = (data) => {
     
   })
 
+  
+
 
   document.getElementById("Illustration").onclick=()=>{
-    changeActivePage("categorySection", "Illustration");
+    changeActivePage(`illustrationSection`, "Illustration");
   }
   
   document.getElementById("Konst").onclick=()=>{
-    changeActivePage("categorySection", "Konst")
+    changeActivePage("konstSection", "Konst")
   }
   
   document.getElementById("Formgivning").onclick=()=>{
-    changeActivePage("categorySection", "Formgivning")
+    changeActivePage("formgivningSection", "Formgivning")
   }
+
+  document.getElementById("Frontend").onclick=()=>{
+    window.location.href = "http://www.tovajertfelt.se";
+  }
+
+
   
 }
 
 async function getCategories() {
   try{
   let res = await fetch("../js/data/categories.json");
-  // const resOff = await fetch("https://jertfelt.github.io/js/data/categories.json");
+
 
   const data= await res.json();
 
