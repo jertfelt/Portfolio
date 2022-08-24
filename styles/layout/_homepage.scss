@@ -94,15 +94,18 @@
 
   &--img{
     margin:3rem;
+    margin-top:12em;
+  
       img{  
         max-width:100%;
         border-radius: 66% 34% 52% 48% / 50% 52% 48% 50%;
+        
       }
       @include breakpoint(xxsmall-max){
         padding-top:11em;
         margin-top:4em;
       }
-   
+
   }
 }
 
