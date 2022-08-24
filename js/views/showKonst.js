@@ -4,7 +4,7 @@ const konstGallery = document.getElementById("konstGallery");
 let konstArr = [];
 
 const drawKonstPage = (data) => {
-  console.log(data)
+  
   
   //placeholder:
   let article = document.createElement("article");
@@ -56,7 +56,7 @@ const drawKonstPage = (data) => {
     let res = await fetch("../js/data/konstverk.json");
   
     const data= await res.json();
-    console.log(data)
+   
   
     konstArr = [...data.konstverk];
   
