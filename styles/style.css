@@ -469,6 +469,12 @@ main {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .grid__category--txt h4 {
+    line-height: 1.8rem;
+  }
+}
+
 @media only screen and (min-width: 1290px) {
   .grid__category--txt {
     max-width: 900px;
@@ -1166,6 +1172,12 @@ nav span {
   padding-bottom: 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .homepage--herotxt {
+    margin-top: -8em;
+  }
+}
+
 .homepage--categoryheader {
   padding: 5em;
 }
@@ -1199,6 +1211,13 @@ nav span {
   .homepage--heroheaders {
     padding-top: 1em;
     margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .homepage--heroheaders {
+    margin-top: -2em;
+    left: 10%;
   }
 }
 

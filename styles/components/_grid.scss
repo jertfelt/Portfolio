@@ -71,7 +71,9 @@
       h4{
         margin-left:2rem;
         margin-top:10px;
-       
+        @include breakpoint(small-max-m){
+          line-height:1.8rem;
+        }
       }
       @include breakpoint(large-min){
       max-width:900px;
