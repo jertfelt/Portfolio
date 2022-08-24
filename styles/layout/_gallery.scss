@@ -1,4 +1,21 @@
 .gallery{
+
+  &__simple{
+    margin-top: 2rem;
+    
+    
+  }
+
+  &__scroll{
+    &--right{
+      display:flex;
+      overflow-x: auto;
+      img{
+        margin-right:15px;
+        max-height:700px;
+      }
+    
+    }}
   &__row {
   display: flex;
   flex-wrap: wrap;
@@ -39,9 +56,3 @@
 }
 }
 
-
-.formgivning{
-  &__grid{
-    background-color: aqua;
-  }
-}

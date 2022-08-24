@@ -2,13 +2,42 @@
   "formgivning": [ 
     {
       "sys": { 
+        "id": "001" },
+      "fields": {
+        "title": "Medrasist - Teskedsorden",
+        "image": { 
+          "fields": { 
+            "file01": { 
+              "url": "../styles/img/nathalie-ruejas-jonson-tova-jertfelt-studio-ankh-medrasist-teskedsorden.gif" ,
+              "id": "01-01"
+              },
+            "file02":{
+              "url":"../styles/img/nathalie-ruejas-jonson-tova-jertfelt-studio-ankh-medrasist-teskedsorden5.png",
+              "id":"01-02"
+            },
+            "file03":{
+              "url":"../styles/img/nathalie-ruejas-jonson-tova-jertfelt-studio-ankh-medrasist-teskedsorden.png",
+              "id":"01-03"
+            },
+            "file04":{
+              "url":"../styles/img/medrasist-grafisk-profil.png",
+              "id":"01-04"
+            }
+            }
+        },     
+        "description": "Södertälje Konsthall bjöd in mig och Nathalie Ruejas Jonson till att bidra med vår formgivning som ett verk.",
+        "indepth": "Utställningen handlar om hur familj kan tolkas i ett queert perspektiv. Vi formgav och animerade posters och inbjudningar. Vi valde att göra en abstrakt poster där ordet kärnfamilj böjs, multipliceras, förändras. Ett av typsnitten som vi jobbade med är 'Queer Type' gjord av Minna Sakaria (SE)."
+      }
+    },
+    {
+      "sys": { 
         "id": "05" },
       "fields": {
         "title": "Kollektiv Sorg",
         "image": { 
           "fields": { 
             "file01": { 
-              "url": "../styles/img/kollektiv-sorg-samples.jpg" ,
+              "url": "../styles/img/kollektiv-sorg-samples.png" ,
               "id": "01-01"
               },
               "file02":{
@@ -16,7 +45,7 @@
                 "id":"01-02"
               },
               "file03":{
-                "url":"../styles/img/kollektiv-sorg-pitch.jpg",
+                "url":"../styles/img/kollektiv-sorg-pitch.png",
                 "id":"01-03"
               },
               "file04":{
@@ -37,15 +66,15 @@
         "image": { 
           "fields": { 
             "file01": { 
-              "url": "../styles/img/globalportalen-grafisk-profil-jertfelt-2022-instagram-3.jpg" ,
+              "url": "../styles/img/globalportalen-grafisk-profil-jertfelt-2022-instagram-3.png" ,
               "id": "01-01"
               },
               "file02":{
-                "url":"../styles/img/globalportalen-grafisk-profil-jertfelt-2022-instagram-2.jpg",
+                "url":"../styles/img/globalportalen-grafisk-profil-jertfelt-2022-instagram-2.png  ",
                 "id":"01-02"
               },
               "file03":{
-                "url":"../styles/img/globalportalen-grafisk-profil-jertfelt-2022-instagram-stories.jpg",
+                "url":"../styles/img/globalportalen-grafisk-profil-jertfelt-2022-instagram-stories.png",
                 "id":"01-03"
               },
               "file04":{
@@ -70,7 +99,7 @@
               "id": "01-01"
               },
               "file02":{
-                "url":"../styles/img/forum-syd-rebrand-2.jpg",
+                "url":"../styles/img/forum-syd-rebrand-2.png",
                 "id":"01-02"
               },
               "file03":{
@@ -78,7 +107,7 @@
                 "id":"01-03"
               },
               "file04":{
-                "url":"../styles/img/forum-syd-rebrand.jpg",
+                "url":"../styles/img/forum-syd-rebrand.png",
                 "id":"01-04"
               }
             }
@@ -91,7 +120,7 @@
       "sys": { 
         "id": "01" },
       "fields": {
-        "title": "Utbränd",
+        "title": "Family First",
         "image": { 
           "fields": { 
             "file01": { 
@@ -103,7 +132,7 @@
               "id":"01-02"
             },
             "file03":{
-              "url":"../styles/img/inbjudan-sodertalje-family-first-ruejas-jonson-jertfelt.jpg",
+              "url":"../styles/img/inbjudan-sodertalje-family-first-ruejas-jonson-jertfelt.png",
               "id":"01-03"
             },
             "file04":{
@@ -116,5 +145,6 @@
         "indepth": "Utställningen handlar om hur familj kan tolkas i ett queert perspektiv. Vi formgav och animerade posters och inbjudningar. Vi valde att göra en abstrakt poster där ordet kärnfamilj böjs, multipliceras, förändras. Ett av typsnitten som vi jobbade med är 'Queer Type' gjord av Minna Sakaria (SE)."
       }
     }
+
   ]
 }

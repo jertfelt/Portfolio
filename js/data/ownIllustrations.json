@@ -23,7 +23,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/berg copy.jpg" } } }
+              "url": "../styles/img/berg copy.png" } } }
       }
     },
     {
@@ -35,7 +35,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/dreams-tova-jertfelt.jpg" } } }
+              "url": "../styles/img/dreams-tova-jertfelt.png" } } }
       }
     },
     {
@@ -46,7 +46,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/web-white-blindness-png-tova-jertfelt-anti-racism-antirasist-poster-print.jpg" } } },     
+              "url": "../styles/img/web-white-blindness-png-tova-jertfelt-anti-racism-antirasist-poster-print.png" } } },     
         "description": "En illustraton som handlar om hur vita måste sluta vara blinda inför sina priviligier och sin maktposition."
       }
     },
@@ -58,7 +58,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/Leopard--print.jpg" } } },     
+              "url": "../styles/img/Leopard--print.png" } } },     
         "description": "En nattvandrade leopard. Till salu!"
       }
     },
@@ -70,7 +70,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/shell-is-hell.jpg" } } },     
+              "url": "../styles/img/shell-is-hell.png" } } },     
         "description": "Collage som handlar om Shell"
       }
     },
@@ -82,7 +82,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/rest-in-peace-biodiversity-tova-jertfelt.jpg" } } },     
+              "url": "../styles/img/rest-in-peace-biodiversity-tova-jertfelt.png" } } },     
         "description": "En illustration som handlar om att vi håller på att utplåna oss själva."
       }
     },
@@ -94,7 +94,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/inferno-dance-tova-jertfelt-poster-for-sale-print-illustration-tova-jertfelt.jpg" } } },     
+              "url": "../styles/img/inferno-dance-tova-jertfelt-poster-for-sale-print-illustration-tova-jertfelt.png" } } },     
         "description": "Print till salu"
       }
     },
@@ -106,7 +106,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/isatou-portratt-insta.jpg" } } },     
+              "url": "../styles/img/isatou-portratt-insta.png" } } },     
         "description": "Ett porträtt av Isatou"
       }
     },
@@ -118,7 +118,7 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/apathy.jpg" } } },     
+              "url": "../styles/img/apathy.png" } } },     
         "description": "En illustration som visar på apati. collage på papper"
       }
     },
@@ -130,24 +130,11 @@
         "image": { 
           "fields": { 
             "file": { 
-              "url": "../styles/img/ariel-tova-jertfelt.jpg" } } },     
+              "url": "../styles/img/ariel-tova-jertfelt.png" } } },     
         "description": "Porträtt"
       }
-    },
-    {
-      "sys": { 
-        "id": "13" },
-      "fields": {
-        "title": "Pojken vid poolkanten",
-        "image": { 
-          "fields": { 
-            "file": { 
-              "url": "../styles/img/boy-pool-view.jpg" } } },     
-        "description": "Digital målning"
-      }
     }
-
-
+    
 
   ]
 }

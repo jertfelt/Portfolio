@@ -5,7 +5,6 @@ const navHomeButtons = document.querySelectorAll(".homebutt")
 navHomeButtons.forEach(button => {
   button.addEventListener("click", () => {
     window.location.href = "/"
-    console.log("going back to start")
   });
 })
 
@@ -33,3 +32,9 @@ button.addEventListener("click", () => {
   
 })
 })
+
+
+// const drawErrorPage = () => {
+//   window.location.href = "/error"
+//   changeActivePage("errorPageSection", "Något har gått fel :(")
+// }

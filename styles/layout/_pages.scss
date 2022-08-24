@@ -207,3 +207,21 @@
     }
   }
 }
+
+
+.formgivning{
+  margin: 0 auto;
+  padding-top: 5em;
+  width:100%;
+  &__grid{
+   
+    &--abovegallery{
+      z-index: 3;
+      position: relative;
+      top:9em;
+      left:4em;
+      width:60px;
+      filter: drop-shadow(0 0 0.75rem $color--fontblack);
+    }
+  }
+}

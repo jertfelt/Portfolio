@@ -1,0 +1,103 @@
+{ 
+  "konstverk": [ 
+    
+    {
+      "sys": { 
+        "id": "01" },
+      "fields": {
+        "title": "URSÄKTA SKOGEN, VI BYGGER OM I-II",
+        "description": "Grupputställning TEMPORARY SPACES, Uppsala Konstnärsklubb 2022",
+        "date": "2022",
+        "indepth":""
+      }
+    },
+    {
+      "sys": { 
+        "id": "02" },
+      "fields": {
+        "title": "SKOGEN OCH JAG",
+        "description": "Eriksberg bibliotek",
+        "date": "2022"
+      }
+    },
+    {
+      "sys": { 
+        "id": "03" },
+      "fields": {
+        "title": "Jag är ett träd",
+        "description": "Liten Eld galleri",
+        "date": "2021"
+      }
+    },
+    {
+      "sys": { 
+        "id": "04" },
+      "fields": {
+        "title": "Modersmål",
+        "description": "Hässelby kulturhus",
+        "date": "2019"
+      }
+    },
+    {
+      "sys": { 
+        "id": "05" },
+      "fields": {
+        "title": "Family First Exhibition",
+        "description": "Södertälje Konsthall",
+        "date": "2017"
+        
+      }
+    },
+    {
+      "sys": { 
+        "id": "06" },
+      "fields": {
+        "title": "See no devil",
+        "description": "Artmadethis Sundbyberg",
+        "date": "2017"
+    
+      }
+    },
+    {
+      "sys": { 
+        "id": "07" },
+      "fields": {
+        "title": "Amidst everything and nothing",
+        "description": "Hötorgsskraporna",
+        "date": "2017"
+    
+      }
+    },
+    {
+      "sys": { 
+        "id": "08" },
+      "fields": {
+        "title": "Vi kan bättre",
+        "description": "Konstfack Vårutställning",
+        "date": "2016"
+    
+      }
+    },
+    {
+      "sys": { 
+        "id": "09" },
+      "fields": {
+        "title": "When I dream, I dream about you",
+        "description": "JUSTE GALLERY, Hornstull",
+        "date": "2015"
+    
+      }
+    },
+    {
+      "sys": { 
+        "id": "10" },
+      "fields": {
+        "title": "When I dream, I dream about you",
+        "description": "Hornhuset, Hornstull",
+        "date": "2015"
+    
+      }
+    }
+
+  ]
+}

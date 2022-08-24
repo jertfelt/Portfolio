@@ -29,7 +29,7 @@
 
   &__img{
    max-width:90%;
-    
+  
     @include breakpoint(large-min){
       max-width: 1170px;
       min-width: 1170px;
@@ -43,7 +43,6 @@
   
       width: 90vw;
       margin: 0 auto;
-    
       max-width: 1170px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -135,4 +134,31 @@
   }
   }
 }
+}
+
+
+.formgivning{
+  &__grid{
+
+    padding-top:1em;
+    max-width:100%;
+    &--item{
+      margin-top:8em;
+      flex-wrap: wrap;
+      h2{
+        padding-left:1em;
+        text-decoration: underline;
+        margin-bottom:0.5rem;
+      }
+      p{
+        padding-left:2.1em;
+        width:80%;
+      }
+      img{
+       
+        max-width:100%;
+       
+      }
+    }
+  }
 }
