@@ -30,6 +30,7 @@ const setActivePage = () => {
   let searchParam = url.searchParams;
   const currentPage = searchParam.get("section");
   console.log(currentPage)
+  
 
   if (currentPage) {   
     if (currentPage !== "homepageSection"){

@@ -1,0 +1,94 @@
+{ 
+  "konstverk": [ 
+    {
+      "sys": { 
+        "id": "001" },
+      "fields": {
+        "title": "URSÄKTA SKOGEN, VI BYGGER OM",
+        "image": { 
+          "fields": { 
+            "file01": { 
+              "url": "../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-vagg2.png" ,
+              "id": "01-01"
+              },
+            "file02":{
+              "url":"../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022.png",
+              "id":"01-02"
+            },
+            "file03":{
+              "url":"../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-skylt3.png",
+              "id":"01-03"
+            },
+            "file04":{
+              "url":"../styles/img/ursakta-roran-vi-bygger-om-uppsala-tova-jertfelt-2022-skylt2.png",
+              "id":"01-04"
+            }
+            }
+        },     
+        "description": "I mitt verk funderar jag på temporära lösningar på samhällsomfattande problem. I en föränderlig stad som Uppsala finns en plan på att expandera sin befolkningsmängd, och det innebär att grönområden behöver krympas, till förmån för bebyggelse. I jakten på förändring och “förbättring” skapas ett stormens öga, där fina ord som hållbarhet, naturnära och grönstruktur används som dekoration. Samtidigt talar man om naturvärde, vad är mer eller mindre “önskvärt”? Skyltarnas språk, rytm och radbryt är direkt tagna från Uppsalas kommunikation, jag har manipulerat ordföljden så att kontrasten mellan intention och resultat synliggörs. Verket är ett porträtt, en parodi, och ett ",
+        "indepth": "Ställdes ut på Uppsala konstnärsklubb 14/5 - 20/6 2022. Curator: Alba Folgado.Projekt- och konstnärliga ledare: Nito Vega, Katarina Sundkvist."
+      }
+    },
+    {
+      "sys": { 
+        "id": "05" },
+      "fields": {
+        "title": "JAG ÄR ETT TRÄD",
+        "image": { 
+          "fields": { 
+            "file01": { 
+              "url": "../styles/img/jag-ar-ett-trad-liten-eld--tova-jertfelt-2021.png" ,
+              "id": "01-01"
+              },
+              "file02":{
+                "url":"../styles/img/jag-ar-ett-trad-liten-eld--tova-jertfelt-2021--2.png",
+                "id":"01-02"
+              },
+              "file03":{
+                "url":"../styles/img/jag-ar-ett-trad-liten-eld--tova-jertfelt-2021--3.png",
+                "id":"01-03"
+              },
+              "file04":{
+                "url":"../styles/img/jag-ar-ett-trad-liten-eld--tova-jertfelt-2021--4.png",
+                "id":"01-04"
+              }
+            }
+        },     
+        "description": 
+        "Jag är ett träd är en utställning om mindfulness, om att vara sjukskriven, och om mänsklighetens behov av 'ordning'. Med torrpastellmålningar, föreställandes tallar, så har jag skapat en skog i utställningsytan. Sedan, genom att spela upp ljudverket, så utsätter jag besökaren för en övning i mindfulness - som sakta med säkert urartar i en storm av känslor och panik. ",
+        "indepth": "Ljudinspelningen är en blandning av open source, mitt eget sjungande, dagbokstexter, övningsmaterial och ljud jag plockat upp runtom i Uppsala. Jag skapade ungefär 50 stycken träd i olika storlekar som, var för sig eller tillsammans, med eller utan ljudverket, har en egen personlighet. På ett sätt är utställningen därför i allra högsta grad personligt, nästan som ett abstrakt självporträtt."
+      }
+    },
+    {
+      "sys": { 
+        "id": "04" },
+      "fields": {
+        "title": "Not like a bedbug",
+        "image": { 
+          "fields": { 
+            "file01": { 
+              "url": "../styles/img/notlikea-bedbug--mal-tovajertfelt-2021.png" ,
+              "id": "01-01"
+              },
+              "file02":{
+                "url":"../styles/img/notlikea-bedbug--mal-tovajertfelt-2021--2.png  ",
+                "id":"01-02"
+              },
+              "file03":{
+                "url":"../styles/img/notlikea-bedbug--mal-tovajertfelt-2021--3.png",
+                "id":"01-03"
+              },
+              "file04":{
+                "url":"../styles/img/notlikea-bedbug--mal-tovajertfelt-2021--6.png",
+                "id":"01-04"
+              }
+            }
+        },     
+        "description": "Serie ritad till MAL:s debutnummer, på temat “Måste Alla Leva”, 2021.",
+        "indepth": "I min serie behandlar jag döden. Det här är ett utdrag."
+      }
+    }
+    
+
+  ]
+}
